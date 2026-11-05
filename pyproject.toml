@@ -44,3 +44,7 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "ASYNC"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/cv_mcp/tools/*.py" = ["E501"]  # Field descriptions the model reads are long on purpose
+"scripts/*.py" = ["E501"]  # endpoint tables read better on one line

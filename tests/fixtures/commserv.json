@@ -1,0 +1,19 @@
+{
+ "revisionId": 1462,
+ "hostName": "pe-cv-l01.lab.local",
+ "releaseId": 16,
+ "csVersionInfo": "11 SP46.40",
+ "osType": "Unix",
+ "timeZone": "1:300:America/New_York",
+ "currentSPVersion": 46,
+ "installedSPVersion": 38,
+ "csTimeZone": {
+  "TimeZoneID": 158,
+  "TimeZoneName": "America/Kentucky/Monticello"
+ },
+ "commcell": {
+  "commCellName": "pe-cv-l01.lab.local",
+  "commCellId": 2,
+  "csGUID": "06442E53-0D19-4E9D-A5AC-E2154EC91671"
+ }
+}

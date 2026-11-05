@@ -1,0 +1,81 @@
+{
+ "cacheId": "6086725c49574fa2b4b5e1e506de44e0",
+ "offset": 0,
+ "limit": 0,
+ "totalRecordCount": 4,
+ "columns": [
+  {
+   "name": "sys_rowid",
+   "dataField": "sys_rowid",
+   "displayName": "$row_number$",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "Data Source",
+   "dataField": "Data Source",
+   "displayName": "Data Source",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "SLAStatus",
+   "dataField": "SLAStatus",
+   "displayName": "SLAStatus",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "CurrentCount",
+   "dataField": "CurrentCount",
+   "displayName": "CurrentCount",
+   "type": "Integer",
+   "precision": 32,
+   "scale": 0
+  },
+  {
+   "name": "ExcludeCount",
+   "dataField": "ExcludeCount",
+   "displayName": "ExcludeCount",
+   "type": "Integer",
+   "precision": 32,
+   "scale": 0
+  }
+ ],
+ "recordsCount": 4,
+ "records": [
+  [
+   1,
+   "pe-cv-l01",
+   "Met SLA",
+   8,
+   4
+  ],
+  [
+   2,
+   "pe-cv-l01",
+   "Missed SLA",
+   8,
+   4
+  ],
+  [
+   3,
+   "pe-cv-l01",
+   "Pending Application Investigation",
+   0,
+   0
+  ],
+  [
+   4,
+   "pe-cv-l01",
+   "Pending Infrastructure Investigation",
+   0,
+   0
+  ]
+ ],
+ "failures": {},
+ "warnings": {}
+}

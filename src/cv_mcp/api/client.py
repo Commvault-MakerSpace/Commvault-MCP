@@ -195,7 +195,7 @@ class CommvaultClient:
         try:
             body = response.json()
         except ValueError:
-            return response.reason_phrase or f"HTTP {response.status_code}", None
+            return response.reason_phrase or "request failed", None
         message: str | None = None
         if isinstance(body, dict):
             err_list = body.get("errList")
@@ -204,7 +204,7 @@ class CommvaultClient:
                 or (err_list[0].get("errLogMessage") if isinstance(err_list, list) and err_list else None)
                 or body.get("error")
             )
-        return str(message) if message else (response.reason_phrase or f"HTTP {response.status_code}"), body
+        return str(message) if message else (response.reason_phrase or "request failed"), body
 
     async def _refresh_tokens(self) -> bool:
         """

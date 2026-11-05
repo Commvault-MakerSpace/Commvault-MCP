@@ -1,0 +1,331 @@
+{
+ "clientGroupDetail": {
+  "configurationGroupType": 0,
+  "isAddinClientGroup": false,
+  "isAssemblyOverriden": false,
+  "showDLP": false,
+  "isEDCInstanceDeleted": false,
+  "claQuota": 0,
+  "enableAutoDiscovery": false,
+  "isNetworkThrottleEnabled": false,
+  "isCompanySmartClientGroup": false,
+  "excludeSLAReason": "",
+  "description": "Select CS, MA, WebConsole, WebServer, Index Gateway, Index Store, proxy clients.",
+  "isSmartClientGroup": true,
+  "queueConflictingJobsEnabledForCG": false,
+  "userHasAgentManagementPermission": 1,
+  "edcSupportedInstanceType": 0,
+  "autoDiscoverVMOwner": false,
+  "isRGMigrated": false,
+  "isCommCellGroup": false,
+  "isDiscoveredClientGroup": false,
+  "useSystemDefaultSLA": true,
+  "isEDCInstanceAssociated": false,
+  "networkThrottle": {
+   "enableThrottle": false
+  },
+  "securityAssociations": {
+   "associations": [
+    {
+     "company": {},
+     "userOrGroup": [
+      {
+       "userGroupName": "master",
+       "userGroupId": 1,
+       "_type_": 15
+      }
+     ],
+     "properties": {
+      "isCreatorAssociation": true,
+      "role": {
+       "_type_": 120,
+       "roleId": 1,
+       "roleName": "Master",
+       "flags": {
+        "disabled": false
+       }
+      }
+     }
+    }
+   ],
+   "ownerAssociations": {},
+   "tagWithCompany": {
+    "providerId": 0,
+    "providerDomainName": "Commcell"
+   }
+  },
+  "dlpPropertise": {
+   "dlpScanIntervalMins": 0,
+   "dlpStolen": false,
+   "dlpEnableAutomaticDecryption": false,
+   "dlpUnlockMethod": 0,
+   "enableDLP": false,
+   "dlpEnableClientKeys": false,
+   "dlpMinFileAgeMins": 0,
+   "dlpRMProperties": {
+    "enableRmDLP": false,
+    "dlpRmNow": false,
+    "dlpRmOfflineDays": 0
+   }
+  },
+  "appMgrServiceLiteNode": {
+   "hostName": "",
+   "clientName": "",
+   "clientId": 0
+  },
+  "scgRule": {
+   "op": 0,
+   "rules": [
+    {
+     "rule": {
+      "op": 1,
+      "rules": [
+       {
+        "rule": {
+         "filterID": 100,
+         "secValue": "CS Client",
+         "propID": 2,
+         "propType": 4,
+         "value": "11"
+        }
+       },
+       {
+        "rule": {
+         "filterID": 100,
+         "secValue": "MediaAgent",
+         "propID": 2,
+         "propType": 4,
+         "value": "5"
+        }
+       },
+       {
+        "rule": {
+         "filterID": 108,
+         "propID": 9,
+         "propType": 6,
+         "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><App_AdvanceKeyInfo><packages val=\"726\" /><packages val=\"252\" /><packages val=\"263\" /><packages val=\"55\" /><packages val=\"273\"/></App_AdvanceKeyInfo>"
+        }
+       },
+       {
+        "rule": {
+         "filterID": 1,
+         "propID": 24,
+         "propType": 1
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "overrideHigherLevelSettings": {
+   "userAccount": {
+    "userName": ""
+   }
+  },
+  "httpProxy": {},
+  "clientGroup": {
+   "clientGroupId": 1,
+   "GUID": "24371FD6-B654-4976-BD23-DF5CD0AEC4B3",
+   "clientGroupName": "Infrastructure"
+  },
+  "firewallConfiguration": {
+   "configureFirewallSettings": false,
+   "isTrivialConfig": true,
+   "proxyEntities": [
+    {
+     "displayName": "pe-cv-l07",
+     "clientId": 3,
+     "clientName": "pe-cv-l07",
+     "_type_": 3
+    }
+   ],
+   "fwTrivialConfig": {
+    "firewallTrivialDetailsCS": {
+     "networkType": 1,
+     "connectionType": 1,
+     "proxyEntity": {
+      "_SubclType_": 0,
+      "_type_": 0
+     }
+    },
+    "firewallTrivialDetailsMA": {
+     "networkType": 1,
+     "connectionType": 1,
+     "proxyEntity": {
+      "_SubclType_": 0,
+      "_type_": 0
+     }
+    }
+   },
+   "firewallOptions": {
+    "isRoamingClient": false,
+    "extendedProperties": "<App_FirewallExtendedProperties configureAutomatically=\"1\" defaultOutgoingProtocol=\"2\"/>",
+    "tunnelconnectionPort": 8403,
+    "foreceSSL": false,
+    "tunnelInitSeconds": 30,
+    "lockdown": false,
+    "bindOpenPortsOnly": false,
+    "isDMZ": false,
+    "keepAliveSeconds": 180
+   }
+  },
+  "jobThrottleSettings": {
+   "isJobThrottleEnabled": 0,
+   "dataThreshold": 0,
+   "excludeImmidiateJobs": 0,
+   "logThreshold": 0
+  },
+  "clientGroupSecurity": {
+   "associatedUserGroups": [
+    {
+     "userGroupId": 1,
+     "_type_": 15,
+     "userGroupName": "master"
+    }
+   ],
+   "advancedPrivacySettings": {
+    "authType": 1,
+    "passkeySettings": {
+     "enableAuthorizeForRestore": false,
+     "expirationTime": {
+      "time": 0
+     }
+    }
+   },
+   "ownerCapabilities": {
+    "inheritedCapabilities": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     10,
+     11,
+     12,
+     13,
+     15,
+     16,
+     18,
+     20,
+     22,
+     24,
+     27,
+     29,
+     31,
+     32,
+     36,
+     38,
+     39,
+     40,
+     42
+    ]
+   }
+  },
+  "associatedClients": [
+   {
+    "hostName": "pe-cv-l01.lab.local",
+    "clientName": "pe-cv-l01",
+    "displayName": "pe-cv-l01",
+    "clientId": 2
+   },
+   {
+    "hostName": "pe-cv-l07",
+    "clientName": "pe-cv-l07",
+    "displayName": "pe-cv-l07",
+    "clientId": 3
+   },
+   {
+    "hostName": "pe-cv-l24",
+    "clientName": "pe-cv-l24",
+    "displayName": "pe-cv-l24",
+    "clientId": 36
+   },
+   {
+    "hostName": "pe-cv-l26.lab.local",
+    "clientName": "pe-cv-l26",
+    "displayName": "pe-cv-l26",
+    "clientId": 37
+   }
+  ],
+  "powerManagementInfo": {
+   "isPowerMgmtAllowed": true,
+   "isPowerMgmtSupported": true,
+   "isPowerManagementEnabled": true,
+   "selectedCloudController": {
+    "clientName": "AWS_Cleanroom_Target",
+    "clientId": 14
+   }
+  },
+  "region": {},
+  "clientGroupActivityControl": {
+   "activityControlOptions": [
+    {
+     "activityType": 1,
+     "enableAfterADelay": false,
+     "enableActivityType": true
+    },
+    {
+     "activityType": 2,
+     "enableAfterADelay": false,
+     "enableActivityType": true
+    },
+    {
+     "activityType": 16,
+     "enableAfterADelay": false,
+     "enableActivityType": true
+    }
+   ]
+  },
+  "globalFiltersInfo": {
+   "globalFiltersInfoList": [
+    {
+     "operatingSystemType": 1,
+     "globalFilters": {}
+    },
+    {
+     "operatingSystemType": 2,
+     "globalFilters": {}
+    }
+   ]
+  },
+  "scgScope": [
+   {
+    "entity": {
+     "commCellName": "pe-cv-l01.lab.local",
+     "commCellId": 2,
+     "_type_": 1
+    }
+   }
+  ],
+  "createAs": {
+   "userGroup": {
+    "userGroupId": 1,
+    "userGroupName": "master"
+   }
+  },
+  "MSSQLCredentialinfo": {
+   "credentialId": 0,
+   "credentialName": ""
+  },
+  "threatIndicatorConfig": {
+   "minAlertSeverity": 2,
+   "recipients": "",
+   "isEnabled": false
+  },
+  "owner": {
+   "userId": 0
+  },
+  "tiPlan": {
+   "planName": "",
+   "planId": 0
+  },
+  "dcPlan": {
+   "planName": "",
+   "planId": 0
+  }
+ }
+}

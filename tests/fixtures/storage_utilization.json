@@ -1,0 +1,147 @@
+{
+ "cacheId": "ad8e6d4c5deb4d9bab93f8c355a47da3",
+ "offset": 0,
+ "limit": 0,
+ "totalRecordCount": 2,
+ "columns": [
+  {
+   "name": "sys_rowid",
+   "dataField": "sys_rowid",
+   "displayName": "$row_number$",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "Data Source",
+   "dataField": "Data Source",
+   "displayName": "Data Source",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "LibraryId",
+   "dataField": "LibraryId",
+   "displayName": "LibraryId",
+   "type": "Integer",
+   "precision": 32,
+   "scale": 0
+  },
+  {
+   "name": "LibraryName",
+   "dataField": "LibraryName",
+   "displayName": "LibraryName",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "TotalSpaceMB",
+   "dataField": "TotalSpaceMB",
+   "displayName": "TotalSpaceMB",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "TotalFreeSpaceMB",
+   "dataField": "TotalFreeSpaceMB",
+   "displayName": "TotalFreeSpaceMB",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "TotalUsedSpaceMB",
+   "dataField": "TotalUsedSpaceMB",
+   "displayName": "TotalUsedSpaceMB",
+   "type": "Decimal",
+   "precision": 21,
+   "scale": 3
+  },
+  {
+   "name": "FreeSpacePercentage",
+   "dataField": "FreeSpacePercentage",
+   "displayName": "FreeSpacePercentage",
+   "type": "Decimal",
+   "precision": 21,
+   "scale": 3
+  },
+  {
+   "name": "Date to be Full",
+   "dataField": "Date to be Full",
+   "displayName": "Date to be Full",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "HealthStatus",
+   "dataField": "HealthStatus",
+   "displayName": "HealthStatus",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "CCTotalDataWrittenGB",
+   "dataField": "CCTotalDataWrittenGB",
+   "displayName": "CCTotalDataWrittenGB",
+   "type": "Double",
+   "precision": 53,
+   "scale": 0
+  },
+  {
+   "name": "CCTotalAppSizeGB",
+   "dataField": "CCTotalAppSizeGB",
+   "displayName": "CCTotalAppSizeGB",
+   "type": "Double",
+   "precision": 53,
+   "scale": 0
+  },
+  {
+   "name": "CCTotalSavingsPercentage",
+   "dataField": "CCTotalSavingsPercentage",
+   "displayName": "CCTotalSavingsPercentage",
+   "type": "Decimal",
+   "precision": 21,
+   "scale": 3
+  }
+ ],
+ "recordsCount": 2,
+ "records": [
+  [
+   1,
+   "pe-cv-l01",
+   1,
+   "PE Lab Disk Library",
+   1046016,
+   396103,
+   649913.0,
+   35.91,
+   549755813886,
+   "Good",
+   604.81,
+   2138.97,
+   71.72
+  ],
+  [
+   2,
+   "pe-cv-l01",
+   10,
+   "PE Lab Disk Library Local",
+   1048555,
+   1048422,
+   133.0,
+   98.03,
+   549755813887,
+   "Good",
+   604.81,
+   2138.97,
+   71.72
+  ]
+ ],
+ "failures": {},
+ "warnings": {}
+}

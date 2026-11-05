@@ -1,0 +1,82 @@
+{
+ "taskInfo": {
+  "associations": [
+   {
+    "subclientId": 82,
+    "clientId": 50,
+    "_SubclType_": 0,
+    "instanceName": "DefaultInstanceName",
+    "appName": "Windows File System",
+    "applicationId": 33,
+    "clientName": "Rbk_192.168.1.83",
+    "backupsetId": 66,
+    "instanceId": 1,
+    "subclientName": "BackupData_2026",
+    "backupsetName": "Rubrik_Files",
+    "_type_": 0
+   }
+  ],
+  "task": {
+   "ownerId": 3,
+   "runUserId": 3,
+   "taskType": 1
+  },
+  "subTasks": [
+   {
+    "subTaskOperation": 1,
+    "subTask": {
+     "subTaskType": 2,
+     "operationType": 2
+    },
+    "options": {
+     "backupOpts": {
+      "bkpLatestVersion": true,
+      "collectMetaInfo": false,
+      "incrementalDataWithLogs": true,
+      "backupLevel": 2,
+      "incLevel": 1,
+      "runIncrementalBackup": false,
+      "autoConvertBackupLevel": true,
+      "doNotTruncateLog": false,
+      "cdrOptions": {
+       "incremental": true,
+       "dataVerificationOnly": false,
+       "full": false
+      },
+      "dataOpt": {
+       "stopWinService": true,
+       "stopDhcpService": true,
+       "useCatalogServer": true,
+       "optimizedBackup": true,
+       "followMountPoints": true,
+       "bkpFilesProctedByFS": true,
+       "granularrecovery": true,
+       "verifySynthFull": true
+      },
+      "vaultTrackerOpt": {
+       "mediaStatus": {
+        "bad": true,
+        "overwriteProtected": true,
+        "full": true
+       }
+      },
+      "mediaOpt": {
+       "numberofDays": 30,
+       "retentionJobType": 2,
+       "waitForInlineBackupResources": true,
+       "allowOtherSchedulesToUseMediaSet": true
+      }
+     },
+     "commonOpts": {
+      "useJobStartTimeForContinuousSchedule": true,
+      "jobRetryOpts": {
+       "runningTime": {
+        "totalRunningTime": 3600
+       }
+      }
+     }
+    }
+   }
+  ]
+ }
+}

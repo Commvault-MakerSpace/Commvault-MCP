@@ -1,0 +1,13 @@
+{
+ "UPN": "",
+ "GUID": "3C657499-FD3A-4CF3-8320-46010FA5A39F",
+ "fullName": "Administrator",
+ "userName": "admin",
+ "userId": 7,
+ "email": "cvadmin@lab.local",
+ "company": {
+  "name": "Commcell",
+  "GUID": "95189d4e-4a7f-4cb3-969f-80d5871ac13f",
+  "id": 0
+ }
+}

@@ -8,7 +8,6 @@ from contextlib import asynccontextmanager
 from typing import Any
 
 from fastmcp import FastMCP
-from fastmcp.server.context import Context
 
 from cv_mcp import __version__
 from cv_mcp.api.client import CommvaultClient
@@ -41,11 +40,6 @@ def build_client(settings: Settings) -> CommvaultClient:
         timeout=settings.timeout,
         user_agent=f"cv-mcp/{__version__}",
     )
-
-
-def client_from(ctx: Context) -> CommvaultClient:
-    """Fetch the shared client from the lifespan context inside a tool."""
-    return ctx.lifespan_context["client"]
 
 
 def create_server(settings: Settings) -> FastMCP:

@@ -6,9 +6,20 @@ API, and operate it only when writes are explicitly enabled.
 
 ## Status
 
-Phases 0 and 1 of `PLAN.md` are done: project scaffold, async API client with Bearer/Authtoken fallback and
-locked token renewal, memory or file token store, and the `cv-mcp check` CLI. No tools are registered yet;
-phase 2 (read-only tools) is next.
+Working against the lab today: project scaffold, async API client with token renewal, token store, the `cv-mcp check`
+CLI, and the first three tool areas (jobs, CommCell, clients) with 17 read tools and 6 write tools gated behind
+`CV_MCP_ALLOW_WRITES`. Storage, plans, schedules and users tools are next, followed by an offline replay mode for demos.
+
+## Tools
+
+| Area | Read tools | Write tools (flag required) |
+|---|---|---|
+| CommCell | get_commcell_details, get_sla_status, get_security_posture, get_security_score, get_storage_space_utilization | send_logs_for_commcell |
+| Jobs | get_jobs_list, get_failed_jobs, get_job_detail, get_job_task_details, get_job_retention, get_job_events | suspend_job, resume_job, resubmit_job, kill_job, send_logs_for_job |
+| Clients | get_client_list, get_client_id, get_client_group_list, get_client_group_properties, get_subclient_list, get_subclient_properties | run_backup_for_subclient |
+
+Times are epoch seconds and sizes are bytes unless a tool says otherwise. Responses are slimmed for the model;
+`*_properties` tools return the raw CommServe payload.
 
 ## Requirements
 

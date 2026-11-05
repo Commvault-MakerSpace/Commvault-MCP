@@ -1,0 +1,46 @@
+{
+ "policies": [
+  {
+   "numberOfStreams": 3,
+   "storagePolicy": {
+    "storagePolicyName": "CommServeDR",
+    "storagePolicyId": 2
+   }
+  },
+  {
+   "numberOfStreams": 500,
+   "storagePolicy": {
+    "storagePolicyName": "30 Day Local - DL1",
+    "storagePolicyId": 4
+   }
+  },
+  {
+   "numberOfStreams": 500,
+   "storagePolicy": {
+    "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+    "storagePolicyId": 7
+   }
+  },
+  {
+   "numberOfStreams": 500,
+   "storagePolicy": {
+    "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+    "storagePolicyId": 8
+   }
+  },
+  {
+   "numberOfStreams": 10,
+   "storagePolicy": {
+    "storagePolicyName": "30 Day Local - DL2",
+    "storagePolicyId": 16
+   }
+  },
+  {
+   "numberOfStreams": 50,
+   "storagePolicy": {
+    "storagePolicyName": "30 Day Local",
+    "storagePolicyId": 19
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "filterQueryCount": 1,
+ "subClientProperties": [
+  {
+   "status": 264,
+   "useLocalContent": false,
+   "protectionGroupDeleteOption": 0,
+   "isProtectionGroupGenerated": false,
+   "isFailoverSubclient": 0,
+   "useLocalArchivalRules": true,
+   "canChangeEncryptionSetting": false,
+   "hcSubclientProp": {},
+   "impersonateUser": {},
+   "nasBlockDeviceSubclientProps": {},
+   "planEntity": {},
+   "cassandraProps": {},
+   "awsEFSProperties": {},
+   "taPlanEntity": {},
+   "splunkProps": {},
+   "bigDataProps": {},
+   "proxyClient": {},
+   "dcPlanEntity": {},
+   "subClientEntity": {
+    "clientName": "pe-cv-l01",
+    "instanceName": "DefaultInstanceName",
+    "displayName": "pe-cv-l01",
+    "backupsetId": 3,
+    "_type_": 7,
+    "commCellName": "pe-cv-l01.lab.local",
+    "instanceId": 1,
+    "csGUID": "06442E53-0D19-4E9D-A5AC-E2154EC91671",
+    "subclientGUID": "4C004F1D-6338-4DC7-9410-30EE1545FFFB",
+    "subclientId": 2,
+    "clientId": 2,
+    "appName": "File System",
+    "backupsetName": "defaultBackupSet",
+    "applicationId": 29,
+    "subclientName": "default",
+    "entityInfo": {
+     "companyId": 0,
+     "multiCommcellGuid": "E54B5F47-D3DF-4F46-BE72-C3AF643DE0E7",
+     "multiCommcellName": "pe-cv-l01",
+     "companyName": "Commcell"
+    }
+   },
+   "dfsSubclientProp": {
+    "distributedDataAccessNodes": {}
+   },
+   "fsSubClientProp": {
+    "retainPerDayPeriod": 1,
+    "useGlobalFilters": 2,
+    "syncAllLibForBackup": false,
+    "isAccessTimeCollected": false,
+    "pendingRecordChange": "*LOCKWAIT",
+    "unixCtime": true,
+    "afterDeletionKeepItemsForNDays": 0,
+    "saveWhileActiveOpt": "*LIB",
+    "catalogAdditional": false,
+    "extendRetentionForNDays": -1,
+    "customSubclientFlag": true,
+    "isTrueUpOptionEnabledForFS": true,
+    "enableContentIndexing": false,
+    "retentionPolicy": 0,
+    "contentIndexingPolicy": 0,
+    "activeWaitTime": 0,
+    "archiverRetentionMode": 2,
+    "runTrueUpJobAfterDaysForFS": 90,
+    "isSynthfullRunAfterOnePassEnabledOnSubclient": false,
+    "followMountPointsMode": 1,
+    "extentLevelBackup": true,
+    "syncQueue": "",
+    "genSignatureOnIBMi": 0,
+    "otherPendingChange": "*LOCKWAIT",
+    "backupAsObjects": false,
+    "checkArchiveBit": false,
+    "olderFileVersionsMode": 2,
+    "backupRetentionMode": 1,
+    "lastFileIndexedBackupTime": 0,
+    "txtlibSyncCheckPoint": "",
+    "keepVersions": 0,
+    "scanOption": 1,
+    "retainPerMonthPeriod": 6,
+    "unixMtime": true,
+    "runTrueUpJobAfterJobsForFS": 0,
+    "oneTouchSubclient": true,
+    "retainPerWeekPeriod": 1,
+    "backupUsingMultipleDrives": false,
+    "keepOlderVersionsForNDays": 30,
+    "ocsUserName": {},
+    "backupConfigurationIDA": {},
+    "ibmiSubclientprop": {},
+    "oneTouchServer": {
+     "_type_": 3
+    },
+    "edgeSubclientPolicyProp": {
+     "enableRetentionRulesForVersions": true,
+     "isIndefiniteRetention": false
+    },
+    "backupFilesOnOrAfterDate": {
+     "_type_": 55
+    },
+    "diskCleanupRules": {
+     "afterArchivingRule": 1,
+     "stubRetentionDaysOld": 0,
+     "rulesToSatisfy": 0,
+     "stubPruningOptions": 0,
+     "enableRedundancyForDataBackedup": true,
+     "patternMatch": "",
+     "entityMatch": "",
+     "diskCleanupFileTypes": {}
+    }
+   },
+   "databricksSubclientProps": {
+    "bigDataTagFilter": {}
+   },
+   "region": {},
+   "content": [
+    {
+     "path": "/"
+    }
+   ],
+   "commonProperties": {
+    "nextBackupTime": 0,
+    "slaStatus": 2,
+    "isAdAppAwareSubclient": false,
+    "disableArchivingTurboRule": true,
+    "isSnapshotV2": false,
+    "firstBackupTime": 0,
+    "lastBackupTime": 0,
+    "indexingBackupSubClient": false,
+    "allowVssForSnapbackup": false,
+    "isActivityDisabledFromPolicy": false,
+    "isETCDSubclient": false,
+    "enableBackupAfterDelay": false,
+    "runAs": 0,
+    "slaCategoryDescription": "No Finished Job within SLA Period",
+    "onBoardCompanyId": 0,
+    "sizeOnMedia": 0,
+    "enableBackup": true,
+    "encryptionFlag": 2,
+    "numberOfBackupStreams": 0,
+    "idaType": 0,
+    "isKeepItemPastExpiryTime": true,
+    "runTrueUpJobAfterDays": 30,
+    "totalBackupSize": 0,
+    "isDefaultSubclient": true,
+    "dedupeRatio": 0,
+    "isTrueUpOptionEnabled": false,
+    "slaCategory": 3,
+    "subClientPropertiesFlag": 0,
+    "lastBackupSize": 0,
+    "allowMultipleDataReaders": true,
+    "hasScaleProfileAccessNode": false,
+    "readBuffersize": 512,
+    "securityAssociations": {
+     "ownerAssociations": {},
+     "tagWithCompany": {
+      "providerId": 0,
+      "providerDomainName": "Commcell"
+     }
+    },
+    "associatedSnapShotSCId": {
+     "_type_": 7
+    },
+    "snapCopyInfo": {
+     "IsOracleSposDriverEnabled": false,
+     "isRMANEnableForTapeMovement": false,
+     "useProxyForSQLIntegrity": {},
+     "sybaseUser": {},
+     "snapToTapeSelectedEngine": {
+      "_type_": 110
+     },
+     "sqlUser": {},
+     "vmApplicationUser": {},
+     "snapToTapeProxyToUse": {
+      "_type_": 3
+     },
+     "quiesceImpersonateUser": {},
+     "separateProxyForSnapToTape": {
+      "_type_": 3
+     },
+     "sshKey": {},
+     "configuredSybaseInstance": {
+      "_type_": 5
+     }
+    },
+    "subclientPolicy": {
+     "_type_": 65,
+     "subclientPolicyName": ""
+    },
+    "applicationCredentialinfo": {
+     "credentialId": 0,
+     "credentialName": ""
+    },
+    "lastBackupJobInfo": {
+     "jobID": 18594,
+     "failureReasonIds": "32294,",
+     "commCellID": 2,
+     "failureReasonMessageEnglish": "Failed to get the Target Storage Policy for Client [pe-cv-l01.lab.local] Subclient [default]. Check the Storage Policy under the subclient properties.<br/>Source: pe-cv-l01, Process: JobManager",
+     "status": 9,
+     "startTime": {
+      "time": 1793216987
+     },
+     "endTime": {
+      "time": 1793216987
+     }
+    },
+    "impersonateUserCredentialinfo": {
+     "credentialId": 0,
+     "credentialName": ""
+    },
+    "enableBackupAtDateTime": {
+     "TimeZoneID": 0,
+     "time": 0
+    },
+    "turboNASClient": {
+     "_type_": 3
+    },
+    "prepostProcess": {
+     "runPostScan": 0,
+     "runPostBackup": 0,
+     "runAs": 1,
+     "runPostLog": 0,
+     "prepostUserName": {}
+    },
+    "indexSettings": {
+     "indexRetCycle": 1,
+     "overrideIndexPruning": 1,
+     "indexRetDays": 0,
+     "isPruningEnabled": 1,
+     "indexPruningType": 1,
+     "currentIndexServer": {},
+     "qualifyingIndexServers": [
+      {}
+     ]
+    },
+    "security": {
+     "associatedUserGroups": [
+      {
+       "userGroupId": 1,
+       "_type_": 15,
+       "userGroupName": "master"
+      }
+     ],
+     "advancedPrivacySettings": {
+      "isPasskeyFeatureEnabled": false,
+      "authType": 1,
+      "isPrivacyFeatureEnabled": false,
+      "passkeySettings": {
+       "enableAuthorizeForRestore": false,
+       "expirationTime": {
+        "time": 0
+       }
+      }
+     },
+     "ownerCapabilities": {}
+    },
+    "storageDevice": {
+     "applicableReadSize": 512,
+     "dataBackupStoragePolicy": {
+      "_type_": 17
+     },
+     "deDuplicationOptions": {
+      "enableDeduplication": true,
+      "generateSignature": 1
+     },
+     "logBackupStoragePolicy": {
+      "_type_": 17
+     },
+     "performanceMode": {
+      "perfSPName": "CV_DEFAULT",
+      "perfCopyName": "DUMMY",
+      "perfClientName": "pe-cv-l01",
+      "pipelineBufferSize": 64,
+      "numOfPipelineBuffers": 180,
+      "muxFactor": 0,
+      "lookAheadReaderSlots": 4,
+      "perfCRCDetails": [
+       {
+        "crcOverMedia": false,
+        "perfMaId": 1,
+        "crcOverNetwork": false,
+        "perfMa": "NO CLIENT"
+       }
+      ]
+     }
+    },
+    "UNCScriptCredentialinfo": {
+     "credentialId": 0,
+     "credentialName": ""
+    },
+    "vmBackupValidationSettings": {
+     "isAppValidationEnabled": false,
+     "backupValidationThreadCount": 0,
+     "subTaskId": 0,
+     "isCustomAppEnabled": false,
+     "runAsDevTestGroup": false,
+     "taskId": 0,
+     "useSourceVMEsxToMount": false,
+     "uncScriptImpersonateUser": {
+      "userName": "0"
+     }
+    },
+    "prepostCredentialinfo": {
+     "credentialId": 0,
+     "credentialName": ""
+    },
+    "associatedPolicy": {
+     "subclientPolicyId": 0
+    },
+    "guestCredentialinfo": {
+     "credentialId": 0,
+     "credentialName": ""
+    }
+   },
+   "auditPlanEntity": {},
+   "analyticsSubclientProp": {}
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "commservEvents": [
+  {
+   "severity": 3,
+   "eventCode": "318767226",
+   "jobId": 18836,
+   "acknowledge": 0,
+   "eventCodeString": "19:122",
+   "subsystem": "JobManager",
+   "description": "Received failed message for job [18836], phase [Scan].",
+   "id": 28888,
+   "timeSource": 1793844024,
+   "type": 0,
+   "clientEntity": {
+    "clientName": "pe-cv-l01",
+    "displayName": "pe-cv-l01",
+    "clientId": 2
+   }
+  },
+  {
+   "severity": 6,
+   "eventCode": "285212683",
+   "jobId": 18836,
+   "acknowledge": 0,
+   "eventCodeString": "17:11",
+   "subsystem": "FileScan",
+   "description": "Configured content does not exist.",
+   "id": 28889,
+   "timeSource": 1793843993,
+   "type": 0,
+   "clientEntity": {
+    "clientName": "pe-cv-l26",
+    "displayName": "pe-cv-l26",
+    "clientId": 37
+   }
+  }
+ ]
+}

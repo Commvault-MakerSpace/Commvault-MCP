@@ -1,0 +1,89 @@
+{
+ "filterQueryCount": 2,
+ "subClientProperties": [
+  {
+   "useLocalContent": false,
+   "protectionGroupDeleteOption": 0,
+   "isProtectionGroupGenerated": false,
+   "isFailoverSubclient": 0,
+   "useLocalArchivalRules": false,
+   "nasBlockDeviceSubclientProps": {},
+   "planEntity": {},
+   "cassandraProps": {},
+   "awsEFSProperties": {},
+   "taPlanEntity": {},
+   "splunkProps": {},
+   "bigDataProps": {},
+   "proxyClient": {},
+   "dcPlanEntity": {},
+   "subClientEntity": {
+    "clientName": "pe-cv-l01",
+    "instanceName": "DefaultInstanceName",
+    "displayName": "pe-cv-l01",
+    "backupsetId": 3,
+    "_type_": 7,
+    "commCellName": "pe-cv-l01.lab.local",
+    "instanceId": 1,
+    "csGUID": "06442E53-0D19-4E9D-A5AC-E2154EC91671",
+    "subclientGUID": "4C004F1D-6338-4DC7-9410-30EE1545FFFB",
+    "subclientId": 2,
+    "clientId": 2,
+    "appName": "File System",
+    "backupsetName": "defaultBackupSet",
+    "applicationId": 29,
+    "subclientName": "default",
+    "entityInfo": {
+     "companyId": 0,
+     "companyName": "Commcell"
+    }
+   },
+   "dfsSubclientProp": {},
+   "databricksSubclientProps": {},
+   "region": {},
+   "auditPlanEntity": {},
+   "analyticsSubclientProp": {}
+  },
+  {
+   "useLocalContent": false,
+   "protectionGroupDeleteOption": 0,
+   "isProtectionGroupGenerated": false,
+   "isFailoverSubclient": 0,
+   "useLocalArchivalRules": false,
+   "nasBlockDeviceSubclientProps": {},
+   "planEntity": {},
+   "cassandraProps": {},
+   "awsEFSProperties": {},
+   "taPlanEntity": {},
+   "splunkProps": {},
+   "bigDataProps": {},
+   "proxyClient": {},
+   "dcPlanEntity": {},
+   "subClientEntity": {
+    "clientName": "pe-cv-l01",
+    "instanceName": "DefaultInstanceName",
+    "displayName": "pe-cv-l01",
+    "backupsetId": 3,
+    "_type_": 7,
+    "commCellName": "pe-cv-l01.lab.local",
+    "instanceId": 1,
+    "csGUID": "06442E53-0D19-4E9D-A5AC-E2154EC91671",
+    "subclientGUID": "11EB62AF-9CD3-4478-9728-88515C31E208",
+    "subclientId": 4,
+    "clientId": 2,
+    "appName": "File System",
+    "backupsetName": "defaultBackupSet",
+    "applicationId": 29,
+    "subclientName": "DDBBackup",
+    "entityInfo": {
+     "companyId": 0,
+     "companyName": "Commcell"
+    }
+   },
+   "dfsSubclientProp": {},
+   "databricksSubclientProps": {},
+   "region": {},
+   "auditPlanEntity": {},
+   "analyticsSubclientProp": {}
+  }
+ ]
+}

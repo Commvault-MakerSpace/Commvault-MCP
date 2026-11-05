@@ -1,0 +1,310 @@
+{
+ "groups": [
+  {
+   "flag": 528384,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 4,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Infrastructure",
+   "clientGroupUniqueId": 3,
+   "Id": 1,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 1,
+    "clientGroupName": "Infrastructure"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 1052672,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 1,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Proxy Clients",
+   "clientGroupUniqueId": 4,
+   "Id": 2,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 2,
+    "clientGroupName": "Proxy Clients"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 4096,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 4,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Media Agents",
+   "clientGroupUniqueId": 1,
+   "Id": 3,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 3,
+    "clientGroupName": "Media Agents"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 4096,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Laptop Clients",
+   "clientGroupUniqueId": 2,
+   "Id": 4,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 4,
+    "clientGroupName": "Laptop Clients"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 4096,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 4,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Index Servers",
+   "clientGroupUniqueId": 8,
+   "Id": 5,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 5,
+    "clientGroupName": "Index Servers"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 0,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Azure_Product_Experience",
+   "Id": 7,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 7,
+    "clientGroupName": "Azure_Product_Experience"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 0,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "AWS_Product_Experience",
+   "Id": 8,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 8,
+    "clientGroupName": "AWS_Product_Experience"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 0,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "AWS_Cleanroom_Target",
+   "Id": 9,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 9,
+    "clientGroupName": "AWS_Cleanroom_Target"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 4096,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 1,
+   "isSmartClientGroup": true,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Content Analyzer Cloud",
+   "clientGroupUniqueId": 9,
+   "Id": 10,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 10,
+    "clientGroupName": "Content Analyzer Cloud"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 8192,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 9,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "vc.lab.local",
+   "Id": 13,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 13,
+    "clientGroupName": "vc.lab.local"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 0,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 1,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "AWS Recovery Group",
+   "Id": 17,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 17,
+    "clientGroupName": "AWS Recovery Group"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  },
+  {
+   "flag": 0,
+   "activity": 0,
+   "isCommcellGroup": false,
+   "groupAssocType": 3,
+   "isSmartClientGroup": false,
+   "isAddinClientGroup": false,
+   "edcSupportedInstanceType": 0,
+   "clientCount": 0,
+   "isEDCInstanceDeleted": false,
+   "isDiscoveredClientGroup": false,
+   "revision": "",
+   "isNetworkThrottleEnabled": false,
+   "name": "Azure Recovery Group",
+   "Id": 18,
+   "isCompanySmartClientGroup": false,
+   "isEDCInstanceAssociated": false,
+   "clientGroup": {
+    "clientGroupId": 18,
+    "clientGroupName": "Azure Recovery Group"
+   },
+   "discoverRulesInfo": {
+    "syncStatus": 0
+   }
+  }
+ ]
+}

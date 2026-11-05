@@ -1,0 +1,286 @@
+{
+ "storagePoolList": [
+  {
+   "totalUsableFreeSpace": 525126,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 521356,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 1048577,
+   "wormStoragePoolFlag": 225,
+   "reserved1": 1,
+   "cloudStorageClassNumber": 2,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 451,
+   "totalFreeSpace": 527174,
+   "storagePoolType": 1,
+   "storageSubType": 0,
+   "storageType": 2,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 3
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 6,
+    "clientGroupName": "AWS AGP EUS Ohio"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "AWS AGP EUS Ohio",
+    "storagePolicyId": 6
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "AWS AGP EUS Ohio",
+    "_type_": 160,
+    "storagePoolId": 6
+   },
+   "region": {
+    "displayName": "US East (Ohio)",
+    "regionName": "us-east-2",
+    "_type_": 102,
+    "regionId": 57
+   }
+  },
+  {
+   "totalUsableFreeSpace": 412688,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 109723,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 524464,
+   "wormStoragePoolFlag": 225,
+   "reserved1": 1,
+   "cloudStorageClassNumber": 16,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 402,
+   "totalFreeSpace": 414736,
+   "storagePoolType": 1,
+   "storageSubType": 0,
+   "storageType": 2,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 8
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 14,
+    "clientGroupName": "Azure AGP Central"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "Azure AGP Central",
+    "storagePolicyId": 14
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "Azure AGP Central",
+    "_type_": 160,
+    "storagePoolId": 14
+   },
+   "region": {
+    "displayName": "(US) Central US",
+    "regionName": "centralus",
+    "_type_": 102,
+    "regionId": 12
+   }
+  },
+  {
+   "totalUsableFreeSpace": 412688,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 109370,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 524111,
+   "wormStoragePoolFlag": 225,
+   "reserved1": 1,
+   "cloudStorageClassNumber": 16,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 402,
+   "totalFreeSpace": 414736,
+   "storagePoolType": 1,
+   "storageSubType": 0,
+   "storageType": 2,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 2
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 5,
+    "clientGroupName": "Azure AGP USE2"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "Azure AGP USE2",
+    "storagePolicyId": 5
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "Azure AGP USE2",
+    "_type_": 160,
+    "storagePoolId": 5
+   },
+   "region": {
+    "displayName": "(US) East US 2",
+    "regionName": "eastus2",
+    "_type_": 102,
+    "regionId": 13
+   }
+  },
+  {
+   "totalUsableFreeSpace": 375805,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 623555,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 1046017,
+   "wormStoragePoolFlag": 97,
+   "reserved1": 1,
+   "cloudStorageClassNumber": -1,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 1,
+   "totalFreeSpace": 396285,
+   "storagePoolType": 3,
+   "storageSubType": 0,
+   "storageType": 1,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 1
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 17,
+    "clientGroupName": "Global_CommServeDR_Primary_1774280235"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "Global_CommServeDR_Primary_1774280235",
+    "storagePolicyId": 17
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "Global_CommServeDR_Primary_1774280235",
+    "_type_": 160,
+    "storagePoolId": 17
+   }
+  },
+  {
+   "totalUsableFreeSpace": 375805,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 623555,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 1046017,
+   "wormStoragePoolFlag": 96,
+   "reserved1": 1,
+   "cloudStorageClassNumber": -1,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 1,
+   "totalFreeSpace": 396285,
+   "storagePoolType": 1,
+   "storageSubType": 0,
+   "storageType": 1,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 1
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 3,
+    "clientGroupName": "PE Lab Disk Library"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "PE Lab Disk Library",
+    "storagePolicyId": 3
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "PE Lab Disk Library",
+    "_type_": 160,
+    "storagePoolId": 3
+   }
+  },
+  {
+   "totalUsableFreeSpace": 1027942,
+   "HSStoragePoolHealth": -1,
+   "cloudStorageClassName": "",
+   "numberOfNodes": 1,
+   "poolRetentionPeriodDays": -1,
+   "sizeOnDisk": 0,
+   "HSStoragePoolType": -1,
+   "totalCapacity": 1048557,
+   "wormStoragePoolFlag": 96,
+   "reserved1": 1,
+   "cloudStorageClassNumber": -1,
+   "isArchiveStorage": 0,
+   "libraryVendorType": 1,
+   "totalFreeSpace": 1048422,
+   "storagePoolType": 1,
+   "storageSubType": 0,
+   "storageType": 1,
+   "status": "Online",
+   "statusCode": 0,
+   "dataRetentionLockDays": 0,
+   "storageTags": {},
+   "libraryList": [
+    {
+     "_type_": 9,
+     "libraryId": 10
+    }
+   ],
+   "storagePool": {
+    "_type_": 28,
+    "clientGroupId": 18,
+    "clientGroupName": "PE Lab Disk Library Local"
+   },
+   "storagePolicyEntity": {
+    "_type_": 17,
+    "storagePolicyName": "PE Lab Disk Library Local",
+    "storagePolicyId": 18
+   },
+   "storagePoolEntity": {
+    "storagePoolName": "PE Lab Disk Library Local",
+    "_type_": 160,
+    "storagePoolId": 18
+   }
+  }
+ ]
+}

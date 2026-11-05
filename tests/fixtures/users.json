@@ -1,0 +1,81 @@
+{
+ "numberOfUsers": 4,
+ "users": [
+  {
+   "id": 4,
+   "name": "badmin",
+   "GUID": "9BF07D78-D2E1-40B8-AD17-A43795B66FB7",
+   "email": "badmin@lab.local",
+   "fullName": "Backup Admin",
+   "userPrincipalName": "badmin@lab.local",
+   "lastLoggedIn": 1767969771,
+   "enabled": true,
+   "description": "",
+   "lockInfo": {
+    "isLocked": false
+   },
+   "numberOfLaptops": 0,
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 5,
+   "name": "jburton",
+   "GUID": "E912FF65-CE78-43FE-B8DF-63F06ED700B3",
+   "email": "jburton@lab.local",
+   "fullName": "Jack Burton",
+   "userPrincipalName": "jburton@lab.local",
+   "lastLoggedIn": 1752266915,
+   "enabled": true,
+   "description": "<p>Just remember what ol' Jack Burton does when the earth quakes, and the poison arrows fall from the sky, and the pillars of Heaven shake.  Yea, Jack Burton just looks that big ol' storm right square in the eye and he says \"Give me you best shot pal, I can take it!\"</p>",
+   "lockInfo": {
+    "isLocked": false
+   },
+   "numberOfLaptops": 0,
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 6,
+   "name": "shannah",
+   "GUID": "B573C81C-3507-414D-80F2-16CF22083678",
+   "email": "shannah@lab.local",
+   "fullName": "Steven Hannah",
+   "userPrincipalName": "shannah@lab.local",
+   "lastLoggedIn": 1758735726,
+   "enabled": true,
+   "description": "",
+   "lockInfo": {
+    "isLocked": false
+   },
+   "numberOfLaptops": 0,
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 7,
+   "name": "admin",
+   "GUID": "3C657499-FD3A-4CF3-8320-46010FA5A39F",
+   "email": "cvadmin@lab.local",
+   "fullName": "Administrator",
+   "userPrincipalName": "",
+   "lastLoggedIn": 1793210893,
+   "enabled": true,
+   "description": "Administrator",
+   "lockInfo": {
+    "isLocked": false
+   },
+   "numberOfLaptops": 0,
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  }
+ ]
+}

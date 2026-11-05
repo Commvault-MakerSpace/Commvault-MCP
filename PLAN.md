@@ -1,6 +1,6 @@
 # cv-mcp: MCP server for Commvault Command Center
 
-Plan written 2026-11-05. Status 2026-11-05 evening: phases 0 and 1 done (scaffold, async client, token store, `cv-mcp check` verified against the lab, 63 unit tests). Phase 2 next.
+Plan written 2026-11-05. Status 2026-11-05 night: phases 0 and 1 done; phase 2 demo path done (17 read tools for jobs, CommCell and clients, 6 write tools behind the flag, 98 tests on recorded lab fixtures, all verified live). Next: storage/plans/schedules/users tools, replay mode, demo script. Target: conference demo week of 2026-11-10.
 
 ## Goal
 
@@ -110,6 +110,7 @@ uv project, src layout, license + NOTICE crediting upstream, `.env.example`, `CL
 - `cv-mcp check` CLI: calls `v2/whoami`, prints user and CommServe version. First thing to run against the lab.
 
 ### Phase 2: read-only tools (2 days)
+Done 2026-11-05 for jobs, CommCell, clients. Notes: `get_entity_counts` dropped (its report dataset returns no columns on 11.46); `get_security_posture` and `get_security_score` use `paramName`/`currentSetting`/`recommendation` (categories carry only a numeric `category`); `get_job_events` added via `Events?jobId=`; pendingReason and security text are HTML-stripped. `scripts/record_fixtures.py` records the lab responses used by tests.
 Port the 31 read tools in the map. Each tool: typed params with `Annotated[..., Field(description=...)]`, raises
 `ToolError` on failure, returns a slimmed dict via the ported wrappers, documents units (epoch seconds, bytes).
 Add what upstream lacks: time window and pagination on job queries, `get_job_events`, client-level backup summary.

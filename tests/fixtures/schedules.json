@@ -1,0 +1,4115 @@
+{
+ "taskDetail": [
+  {
+   "task": {
+    "description": "System created schedule policy for All Agent Types",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "69173BC2-9642-4565-A875-B8D77DC11858",
+    "policyType": 0,
+    "taskName": "System Created (All  Agent Types)",
+    "taskId": 2,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created (All  Agent Types)",
+     "taskId": 2
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 3348,
+     "nextScheduleTime": 1793919600,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 1,
+      "operationType": 2,
+      "subTaskId": 2
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 8,
+      "patternId": 1,
+      "flags": 0,
+      "description": "",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 64800,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 30,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "sybaseSkipFullafterLogBkp": false,
+       "bkpLatestVersion": false,
+       "collectMetaInfo": true,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "runSILOBackup": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "followMountPoints": true,
+        "startLogBackupAfterSuccessfullBackup": false,
+        "createNewIndex": false
+       },
+       "oracleOptions": {
+        "level": 1,
+        "cumulative": false,
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       }
+      }
+     }
+    },
+    {
+     "relativeTime": 89748,
+     "nextScheduleTime": 1794006000,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 2,
+      "operationType": 2,
+      "subTaskId": 3
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 8,
+      "patternId": 2,
+      "flags": 0,
+      "description": "",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 64800,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 32,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "sybaseSkipFullafterLogBkp": false,
+       "bkpLatestVersion": false,
+       "collectMetaInfo": true,
+       "backupLevel": 1,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "runSILOBackup": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "followMountPoints": true,
+        "startLogBackupAfterSuccessfullBackup": false,
+        "createNewIndex": true
+       },
+       "oracleOptions": {
+        "level": 1,
+        "cumulative": false,
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System Created FTP Schedule",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "2694BCA2-CF84-471C-B3E8-AEFE5F4D3BB7",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 7,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 7
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 687247,
+     "nextScheduleTime": 1794603499,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Download Software",
+      "subTaskType": 1,
+      "flags": 64,
+      "operationType": 4019,
+      "subTaskId": 8
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 32,
+      "patternId": 7,
+      "flags": 0,
+      "description": "Every month",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 57499,
+      "freq_restart_interval": 0,
+      "active_start_date": 1747785600,
+      "freq_interval": 6,
+      "freq_relative_interval": 2,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "updateOption": {
+        "syncUpdateCaches": true,
+        "invokeLevel": 1,
+        "isWindows": false,
+        "majorOnly": true,
+        "isSpDelayedDays": true,
+        "copyUpdates": true,
+        "copySoftwareAndUpdates": false,
+        "isUnix": true,
+        "unixDownloadPackages": {
+         "linuxosX64": true,
+         "solarisosX64": false,
+         "solsparcos": false,
+         "freeBSDos": false,
+         "linuxos": false,
+         "linuxosPPC64le": false,
+         "freeBSDosX64": false,
+         "solarisos": false,
+         "linuxs390os": false,
+         "linuxosS390": false,
+         "aixppcos": false,
+         "linuxosPPC64": false,
+         "darwinosx8664": false,
+         "aixos": false,
+         "hpos": false,
+         "solos": false,
+         "aixos5232": false,
+         "linuxarm64": false
+        },
+        "downloadUpdatesJobOptions": {
+         "downloadSoftware": true,
+         "downloadUpdate": true,
+         "copyUpdatesToOneTouchCache": false
+        },
+        "windowsDownloadPackages": {
+         "windowsX64": false,
+         "windows32": false
+        },
+        "clientAndClientGroups": [
+         {
+          "_type_": 2
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 4,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "displayName": "pe-cv-l01",
+     "clientId": 2,
+     "srmTemplateName": "",
+     "instanceName": "DefaultInstanceName",
+     "appName": "Linux File System",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 29,
+     "clientName": "pe-cv-l01",
+     "backupsetId": 3,
+     "instanceId": 1,
+     "subclientName": "DDBBackup",
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "backupsetName": "defaultBackupSet",
+     "workflowId": 0,
+     "_type_": 7,
+     "flags": {
+      "exclude": false
+     }
+    },
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 71,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "displayName": "pe-cv-l24",
+     "clientId": 36,
+     "srmTemplateName": "",
+     "instanceName": "DefaultInstanceName",
+     "appName": "Windows File System",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 33,
+     "clientName": "pe-cv-l24",
+     "backupsetId": 40,
+     "instanceId": 1,
+     "subclientName": "DDBBackup",
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "backupsetName": "defaultBackupSet",
+     "workflowId": 0,
+     "_type_": 7,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System created schedule policy for DDB subclients",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "EFDD89C1-08F5-4F20-AD73-C0CC16E3B14F",
+    "policyType": 0,
+    "taskName": "System Created for DDB subclients",
+    "taskId": 10,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created for DDB subclients",
+     "taskId": 10
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 168948,
+     "nextScheduleTime": 1794085200,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 512,
+      "operationType": 2,
+      "subTaskId": 11
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 10,
+      "flags": 0,
+      "description": "",
+      "active_end_time": 86340,
+      "active_start_time_window": 4200,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 57600,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 3,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 3,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "sybaseSkipFullafterLogBkp": false,
+       "bkpLatestVersion": false,
+       "collectMetaInfo": true,
+       "backupLevel": 1,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "runSILOBackup": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "followMountPoints": true,
+        "startLogBackupAfterSuccessfullBackup": false,
+        "createNewIndex": true
+       },
+       "oracleOptions": {
+        "level": 1,
+        "cumulative": false,
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "660695B8-A82B-4EE9-A47B-F1041E5264AF",
+    "policyType": 1,
+    "taskName": "System Created Replication Autocopy schedule",
+    "taskId": 13,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Replication Autocopy schedule",
+     "taskId": 13
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 1024,
+      "operationType": 4003,
+      "subTaskId": 14
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 13,
+      "flags": 0,
+      "description": "Continuous Schedule After 1 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732147200,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "mediaOpt": {
+        "markMediaFullOnSuccess": false,
+        "startNewMedia": false,
+        "auxcopyJobOption": {
+         "maxNumberOfStreams": 0,
+         "allCopies": true,
+         "waitForAllParallelCopyResources": false,
+         "useMostRecentBackupForAuxcopy": false,
+         "useMaximumStreams": true,
+         "autoCopy": true,
+         "useScallableResourceManagement": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System created schedule policy for cloud resource discovery",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "216077C7-3D35-48CD-8EA5-71F167DB80F1",
+    "policyType": 0,
+    "taskName": "System Created cloud resource discovery schedule policy",
+    "taskId": 16,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created cloud resource discovery schedule policy",
+     "taskId": 16
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 60948,
+     "nextScheduleTime": 1793977200,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System created cloud resource discovery schedule",
+      "subTaskType": 1,
+      "flags": 1073741824,
+      "operationType": 4048,
+      "subTaskId": 17
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 16,
+      "flags": 0,
+      "description": "Every day at 10:00 AM",
+      "active_end_time": 0,
+      "active_start_time_window": 360,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 36000,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732147200,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "cloudResourceDiscoveryOptions": {
+        "discoveryTargets": {}
+       }
+      },
+      "commonOpts": {
+       "startUpOpts": {
+        "jobStaggerTime": 5
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 0,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "14E1B121-9834-4C48-BC69-E77074335E04",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 4,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 4
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 68148,
+     "nextScheduleTime": 1793984400,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "Data Aging",
+      "subTaskType": 1,
+      "flags": 8,
+      "operationType": 4018,
+      "subTaskId": 5
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 4,
+      "flags": 0,
+      "description": "",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 43200,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "dataAgingOption": {
+        "selectCopies": false,
+        "includeAllClients": false,
+        "pruneSelectedCopies": false,
+        "isGranular": false
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 7,
+     "_type_": 0,
+     "workflowName": "DBMaintenance",
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System Created DBMaintenance schedule",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "FA8D31B8-86B8-477D-9A12-D50410DCBAB7",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 19,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": true,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 19
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 251748,
+     "nextScheduleTime": 1794168000,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created DBMaintenance schedule",
+      "subTaskType": 1,
+      "flags": 32768,
+      "operationType": 2001,
+      "subTaskId": 20
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 8,
+      "patternId": 19,
+      "flags": 0,
+      "description": "Every 2 weeks on Sunday at 3:00 PM",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 54000,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732233600,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 2,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "backupLevel": 2,
+       "dataOpt": {
+        "autoCopy": false
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 0,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "5145FEFB-82F7-4624-BA00-1B84EAB83D03",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 3,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 3
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 60948,
+     "nextScheduleTime": 1793977200,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "DR Backup Full",
+      "subTaskType": 1,
+      "flags": 4,
+      "operationType": 4002,
+      "subTaskId": 4
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 3,
+      "flags": 0,
+      "description": "Every day at 10:00 AM Starting Jun 13 2025  ",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 36000,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749772800,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "drBackupOption": {
+        "drbackupType": 1,
+        "dbName": "commserv",
+        "shrinkDB": false,
+        "enableDatabasesBackupCompression": false
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 7,
+     "copyId": 7,
+     "clientId": 0,
+     "copyName": "Secondary",
+     "srmTemplateName": "",
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 18,
+     "flags": {
+      "exclude": false
+     }
+    },
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 7,
+     "copyId": 19,
+     "clientId": 0,
+     "copyName": "Azure Central",
+     "srmTemplateName": "",
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 18,
+     "flags": {
+      "exclude": false
+     }
+    },
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 8,
+     "copyId": 9,
+     "clientId": 0,
+     "copyName": "Secondary",
+     "srmTemplateName": "",
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 18,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "1D75891D-695D-4DAA-AD8F-235477F8BD9E",
+    "policyType": 1,
+    "taskName": "System Created Autocopy schedule",
+    "taskId": 9,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Autocopy schedule",
+     "taskId": 9
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 1024,
+      "operationType": 4003,
+      "subTaskId": 10
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 9,
+      "flags": 0,
+      "description": "Continuous Schedule After 30 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 30,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "mediaOpt": {
+        "markMediaFullOnSuccess": false,
+        "startNewMedia": false,
+        "auxcopyJobOption": {
+         "maxNumberOfStreams": 0,
+         "allCopies": true,
+         "waitForAllParallelCopyResources": false,
+         "useMostRecentBackupForAuxcopy": false,
+         "useMaximumStreams": true,
+         "autoCopy": true,
+         "useScallableResourceManagement": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System Created Upgrade Software for Laptops",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "F51844D3-AEDE-4D8D-818B-74DDCB0AE8C4",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 12,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 12
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Upgrade Software for Laptops",
+      "subTaskType": 1,
+      "flags": 8192,
+      "operationType": 4020,
+      "subTaskId": 13
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 12,
+      "flags": 0,
+      "description": "",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732147200,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "updateOption": {
+        "commcellId": 2,
+        "invokeLevel": 1,
+        "ignoreRunningJobs": true,
+        "removeIntersectingDiag": true,
+        "rebootClient": false,
+        "installUpdatesJobType": {
+         "upgradeClients": false,
+         "undoUpdates": false,
+         "installUpdates": true
+        },
+        "clientAndClientGroups": [
+         {
+          "clientGroupId": 4,
+          "_type_": 28
+         }
+        ]
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 72,
+        "ignoreOpWindowPastMaxInterval": false,
+        "minBackupIntervalMinutes": 0,
+        "maxBackupIntervalMinutes": 0,
+        "minSyncInterval": 0,
+        "minBackupInterval": 36,
+        "minSyncIntervalMinutes": 0
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 2,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System created schedule policy for Dynamo DB",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "732F6202-0061-41D8-A7D4-46933D4C1D83",
+    "policyType": 0,
+    "taskName": "System created for Dynamo DB",
+    "taskId": 22,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System created for Dynamo DB",
+     "taskId": 22
+    }
+   },
+   "appGroup": {
+    "appGroups": [
+     {
+      "appGroupId": 135
+     }
+    ]
+   },
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Continuous Incremental Backup",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 23
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 22,
+      "flags": 0,
+      "description": "Continuous Schedule After 720 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1747785600,
+      "freq_interval": 720,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "sybaseSkipFullafterLogBkp": false,
+       "notSynthesizeFullFromPrevBackup": false,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": false,
+       "runSILOBackup": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "skipCatalogPhaseForSnapBackup": true,
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "autoCopy": false
+       },
+       "mediaOpt": {},
+       "dbBackupOptions": {
+        "maxDbBackupType": 0
+       }
+      },
+      "restoreOptions": {
+       "commonOptions": {
+        "syncRestore": false
+       }
+      },
+      "commonOpts": {
+       "perfJobOpts": {},
+       "automaticSchedulePattern": {}
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System Created Install Software",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 2,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "E85B33D0-1732-4ED3-A629-671254019459",
+    "policyType": 0,
+    "taskName": "",
+    "taskId": 8,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "",
+     "taskId": 8
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 230148,
+     "nextScheduleTime": 1794146400,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Upgrade Software",
+      "subTaskType": 1,
+      "flags": 128,
+      "operationType": 4020,
+      "subTaskId": 9
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 32,
+      "patternId": 8,
+      "flags": 0,
+      "description": "Every month on second Sunday",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 32400,
+      "freq_restart_interval": 0,
+      "active_start_date": 1747785600,
+      "freq_interval": 1,
+      "freq_relative_interval": 2,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "updateOption": {
+        "commcellId": 2,
+        "invokeLevel": 1,
+        "ignoreRunningJobs": true,
+        "removeIntersectingDiag": true,
+        "rebootClient": false,
+        "installUpdatesJobType": {
+         "upgradeClients": false,
+         "undoUpdates": false,
+         "installUpdates": true
+        },
+        "clientAndClientGroups": [
+         {
+          "_type_": 2
+         },
+         {
+          "_type_": 27
+         },
+         {
+          "clientGroupId": 4,
+          "_type_": 28,
+          "flags": {
+           "exclude": true
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System created schedule policy for Deferred Catalog",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "ABF74AE7-16FB-4709-B13D-806337149E29",
+    "policyType": 14,
+    "taskName": "System Created Deferred Catalog",
+    "taskId": 15,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Deferred Catalog",
+     "taskId": 15
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 0,
+      "operationType": 4043,
+      "subTaskId": 16
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 15,
+      "flags": 0,
+      "description": "Continuous Schedule After 30 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732147200,
+      "freq_interval": 30,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "snapToTapeOption": {
+        "allowMaximum": true,
+        "noofJobsToRun": 1
+       }
+      },
+      "backupOpts": {
+       "mediaOpt": {
+        "auxcopyJobOption": {
+         "autoCopy": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System created schedule policy for Load Balance DDB",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "2D6AF85B-21D0-423A-B711-1FBF3FF9D9B1",
+    "policyType": 13,
+    "taskName": "System Created Load Balance DDB schedule policy",
+    "taskId": 41,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": true,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Load Balance DDB schedule policy",
+     "taskId": 41
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 24948,
+     "nextScheduleTime": 1793941200,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Load Balance DDB schedule policy",
+      "subTaskType": 1,
+      "flags": 0,
+      "operationType": 2001,
+      "subTaskId": 43
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 26,
+      "flags": 0,
+      "description": "Daily at 00:00:00",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "Load Balance DeDuplication DB Partitions",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "contentIndexingOption": {
+        "subClientBasedAnalytics": false
+       }
+      },
+      "backupOpts": {
+       "backupLevel": 2,
+       "dataOpt": {
+        "autoCopy": false
+       }
+      },
+      "restoreOptions": {
+       "commonOptions": {
+        "syncRestore": false
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {}
+      }
+     }
+    }
+   ],
+   "workflows": [
+    {
+     "workflowJobOptions": "<inputs><InteractiveMode>0</InteractiveMode></inputs>",
+     "workflowTitle": "Load Balance DeDuplication DB Partitions",
+     "workflow": {
+      "workflowId": 139,
+      "workflowName": "Load Balance DeDuplication DB Partitions"
+     },
+     "clientEntity": {
+      "clientId": 0
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 155,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System created schedule policy for DDB Space Reclamation",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "82F1879D-4BD5-48B5-B113-DA573B14B497",
+    "policyType": 16,
+    "taskName": "System Created DDB Space Reclamation schedule policy",
+    "taskId": 18,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created DDB Space Reclamation schedule policy",
+     "taskId": 18
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 57348,
+     "nextScheduleTime": 1793973600,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 16777216,
+      "operationType": 4007,
+      "subTaskId": 19
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 18,
+      "flags": 0,
+      "description": "Every day at 11:00 AM and repeats every 24 hr(s) 0 min(s) until 12:00 AM",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 32400,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732233600,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "contentIndexingOption": {
+        "subClientBasedAnalytics": false
+       },
+       "archiveCheckOption": {
+        "ddbVerificationLevel": 4,
+        "jobsToVerify": 0,
+        "allCopies": true,
+        "defragmentationPercentage": 40,
+        "runDefrag": true,
+        "backupLevel": 1
+       }
+      },
+      "backupOpts": {
+       "backupLevel": 2,
+       "dataOpt": {
+        "autoCopy": false
+       },
+       "mediaOpt": {
+        "auxcopyJobOption": {
+         "maxNumberOfStreams": 0,
+         "allCopies": true,
+         "useMaximumStreams": true,
+         "autoCopy": false,
+         "useScallableResourceManagement": true,
+         "mediaAgent": {
+          "mediaAgentId": 0,
+          "_type_": 11,
+          "mediaAgentName": ""
+         }
+        }
+       }
+      },
+      "restoreOptions": {
+       "commonOptions": {
+        "syncRestore": false
+       }
+      },
+      "commonOpts": {
+       "jobDescription": ""
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System created schedule policy for index cache load balancing",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "118E374C-4CFC-4FC1-BEEF-8742175F67F7",
+    "policyType": 13,
+    "taskName": "System created index cache load balancing",
+    "taskId": 21,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System created index cache load balancing",
+     "taskId": 21
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 197748,
+     "nextScheduleTime": 1794114000,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System created index cache load balancing",
+      "subTaskType": 1,
+      "flags": 0,
+      "operationType": 2001,
+      "subTaskId": 22
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 8,
+      "patternId": 21,
+      "flags": 0,
+      "description": "Every week on Sunday at 12:00 AM",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732233600,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "Load Balance Index Servers",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "contentIndexingOption": {
+        "fileAnalytics": false,
+        "subClientBasedAnalytics": false,
+        "reanalyze": false
+       }
+      },
+      "backupOpts": {
+       "backupLevel": 2,
+       "dataOpt": {
+        "autoCopy": false
+       }
+      },
+      "restoreOptions": {
+       "virtualServerRstOption": {
+        "isBlockLevelReplication": false
+       }
+      }
+     }
+    }
+   ],
+   "workflows": [
+    {
+     "workflowJobOptions": "<inputs></inputs>",
+     "workflowTitle": "Load Balance Index Servers Workflow",
+     "workflow": {
+      "workflowId": 86,
+      "workflowName": "Load Balance Index Servers"
+     },
+     "clientEntity": {
+      "clientId": 0
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 20,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "displayName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "clientId": 15,
+     "srmTemplateName": "",
+     "instanceName": "classicIndexInstance",
+     "appName": "Distributed Data Platforms",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 64,
+     "clientName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "backupsetId": 15,
+     "instanceId": 7,
+     "subclientName": "default",
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "backupsetName": "defaultBackupSet",
+     "workflowId": 0,
+     "_type_": 7,
+     "flags": {
+      "exclude": false
+     }
+    },
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 21,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "displayName": "30 Day Local - DL1_IndexServer",
+     "clientId": 16,
+     "srmTemplateName": "",
+     "instanceName": "classicIndexInstance",
+     "appName": "Distributed Data Platforms",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 64,
+     "clientName": "30 Day Local - DL1_IndexServer",
+     "backupsetId": 16,
+     "instanceId": 8,
+     "subclientName": "default",
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "backupsetName": "defaultBackupSet",
+     "workflowId": 0,
+     "_type_": 7,
+     "flags": {
+      "exclude": false
+     }
+    },
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 24,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "displayName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "clientId": 19,
+     "srmTemplateName": "",
+     "instanceName": "classicIndexInstance",
+     "appName": "Distributed Data Platforms",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 64,
+     "clientName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "backupsetId": 19,
+     "instanceId": 9,
+     "subclientName": "default",
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "backupsetName": "defaultBackupSet",
+     "workflowId": 0,
+     "_type_": 7,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System created schedule policy for Index Backups",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "552FCDF5-C56A-4828-9937-475CC88FFA39",
+    "policyType": 0,
+    "taskName": "System Created for Index Backups",
+    "taskId": 11,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": true,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created for Index Backups",
+     "taskId": 11
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 71748,
+     "nextScheduleTime": 1793988000,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 2048,
+      "operationType": 2,
+      "subTaskId": 12
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 11,
+      "flags": 0,
+      "description": "Every day at 1:00 PM",
+      "active_end_time": 86340,
+      "active_start_time_window": 1320,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 46800,
+      "freq_restart_interval": 0,
+      "active_start_date": 1437091200,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "sybaseSkipFullafterLogBkp": false,
+       "bkpLatestVersion": false,
+       "collectMetaInfo": true,
+       "backupLevel": 1,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "runSILOBackup": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "followMountPoints": true,
+        "startLogBackupAfterSuccessfullBackup": false,
+        "createNewIndex": true
+       },
+       "oracleOptions": {
+        "level": 1,
+        "cumulative": false,
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local - DL1",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 1,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local - DL1'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 1,
+    "alertId": 0,
+    "GUID": "e0229847-73ea-4011-bbe9-d44b6dd54151",
+    "policyType": 0,
+    "taskName": "30 Day Local - DL1",
+    "taskId": 37,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local - DL1",
+     "taskId": 37
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 24948,
+     "nextScheduleTime": 1793941200,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 38
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 24,
+      "flags": 0,
+      "description": "Every day at 9:00 PM Starting Jan  1 1970  ",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 75600,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749168000,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1001,
+       "TimeZoneName": "Client Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "bkpLatestVersion": true,
+       "collectMetaInfo": false,
+       "incrementalDataWithLogs": true,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": false,
+       "autoConvertBackupLevel": true,
+       "doNotTruncateLog": false,
+       "cdrOptions": {
+        "incremental": true,
+        "dataVerificationOnly": false,
+        "full": false
+       },
+       "dataOpt": {
+        "stopWinService": true,
+        "stopDhcpService": true,
+        "useCatalogServer": true,
+        "optimizedBackup": true,
+        "followMountPoints": true,
+        "bkpFilesProctedByFS": true,
+        "granularrecovery": true,
+        "verifySynthFull": true
+       },
+       "vaultTrackerOpt": {
+        "mediaStatus": {
+         "bad": true,
+         "overwriteProtected": true,
+         "full": true
+        }
+       },
+       "mediaOpt": {
+        "numberofDays": 30,
+        "retentionJobType": 2,
+        "waitForInlineBackupResources": true,
+        "allowOtherSchedulesToUseMediaSet": true
+       }
+      },
+      "commonOpts": {
+       "useJobStartTimeForContinuousSchedule": true,
+       "jobRetryOpts": {
+        "runningTime": {
+         "totalRunningTime": 3600
+        }
+       }
+      }
+     }
+    },
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "Synthetic Fulls",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 39
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 25,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749168000,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "backupLevel": 4,
+       "incLevel": 0,
+       "runIncrementalBackup": false,
+       "doNotTruncateLog": false,
+       "vsaBackupOptions": {
+        "backupFailedVMsOnly": false
+       },
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "useMultiStream": true,
+        "useMaximumStreams": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "maxNumberOfStreams": 1,
+        "createNewIndex": true,
+        "daysBetweenSyntheticBackup": 90,
+        "autoCopy": true
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 72,
+        "minBackupIntervalMinutes": 15,
+        "minSyncIntervalMinutes": 2,
+        "newOrModifiedFile": {
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System created schedule policy for backup copy operations",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "5CD939AB-A78B-4503-9161-7BAF7356DFC1",
+    "policyType": 3,
+    "taskName": "System Created Backupcopy schedule policy",
+    "taskId": 14,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Backupcopy schedule policy",
+     "taskId": 14
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 536870912,
+      "operationType": 4028,
+      "subTaskId": 15
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 14,
+      "flags": 0,
+      "description": "Continuous Schedule After 240 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732147200,
+      "freq_interval": 240,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "contentIndexingOption": {
+        "subClientBasedAnalytics": false
+       },
+       "snapToTapeOption": {
+        "allowMaximum": true,
+        "noofJobsToRun": 1
+       }
+      },
+      "backupOpts": {
+       "backupLevel": 2,
+       "dataOpt": {
+        "useCatalogServer": true,
+        "enforceTransactionLogUsage": true,
+        "autoCopy": false
+       },
+       "mediaOpt": {
+        "markMediaFullOnSuccess": false,
+        "startNewMedia": false,
+        "auxcopyJobOption": {
+         "autoCopy": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 3,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local + 30 Day AWS AGP'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 3,
+    "alertId": 0,
+    "GUID": "f5bc6169-53e5-4b7c-a5cf-4b401b5e4162",
+    "policyType": 0,
+    "taskName": "30 Day Local + 30 Day AWS AGP",
+    "taskId": 45,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local + 30 Day AWS AGP",
+     "taskId": 45
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 57348,
+     "nextScheduleTime": 1793973600,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 48
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 31,
+      "flags": 0,
+      "description": "Every day at 9:00 AM Starting Jan  1 1970  ",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 32400,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1001,
+       "TimeZoneName": "Client Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "bkpLatestVersion": true,
+       "collectMetaInfo": false,
+       "incrementalDataWithLogs": true,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": false,
+       "autoConvertBackupLevel": true,
+       "doNotTruncateLog": false,
+       "cdrOptions": {
+        "incremental": true,
+        "dataVerificationOnly": false,
+        "full": false
+       },
+       "dataOpt": {
+        "stopWinService": true,
+        "stopDhcpService": true,
+        "useCatalogServer": true,
+        "optimizedBackup": true,
+        "followMountPoints": true,
+        "bkpFilesProctedByFS": true,
+        "granularrecovery": true,
+        "verifySynthFull": true
+       },
+       "vaultTrackerOpt": {
+        "mediaStatus": {
+         "bad": true,
+         "overwriteProtected": true,
+         "full": true
+        }
+       },
+       "mediaOpt": {
+        "numberofDays": 30,
+        "retentionJobType": 2,
+        "waitForInlineBackupResources": true,
+        "allowOtherSchedulesToUseMediaSet": true
+       }
+      },
+      "commonOpts": {
+       "useJobStartTimeForContinuousSchedule": true,
+       "jobRetryOpts": {
+        "runningTime": {
+         "totalRunningTime": 3600
+        }
+       }
+      }
+     }
+    },
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "Synthetic Fulls",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 49
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 32,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "backupLevel": 4,
+       "incLevel": 0,
+       "runIncrementalBackup": false,
+       "doNotTruncateLog": false,
+       "vsaBackupOptions": {
+        "backupFailedVMsOnly": false
+       },
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "useMultiStream": true,
+        "useMaximumStreams": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "maxNumberOfStreams": 1,
+        "createNewIndex": true,
+        "daysBetweenSyntheticBackup": 90,
+        "autoCopy": true
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 72,
+        "minBackupIntervalMinutes": 15,
+        "minSyncIntervalMinutes": 2,
+        "newOrModifiedFile": {
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 2,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local + 30 Day Azure AGP'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 2,
+    "alertId": 0,
+    "GUID": "4a226842-2f27-4c1a-8c65-78aaf5290002",
+    "policyType": 0,
+    "taskName": "30 Day Local + 30 Day Azure AGP",
+    "taskId": 44,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local + 30 Day Azure AGP",
+     "taskId": 44
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 14148,
+     "nextScheduleTime": 1793930400,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 46
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 29,
+      "flags": 0,
+      "description": "Every day at 9:00 PM Starting Jan  1 1970  ",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 75600,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1001,
+       "TimeZoneName": "Client Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "bkpLatestVersion": true,
+       "collectMetaInfo": false,
+       "incrementalDataWithLogs": true,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": false,
+       "autoConvertBackupLevel": true,
+       "doNotTruncateLog": false,
+       "cdrOptions": {
+        "incremental": true,
+        "dataVerificationOnly": false,
+        "full": false
+       },
+       "dataOpt": {
+        "stopWinService": true,
+        "stopDhcpService": true,
+        "useCatalogServer": true,
+        "optimizedBackup": true,
+        "followMountPoints": true,
+        "bkpFilesProctedByFS": true,
+        "granularrecovery": true,
+        "verifySynthFull": true
+       },
+       "vaultTrackerOpt": {
+        "mediaStatus": {
+         "bad": true,
+         "overwriteProtected": true,
+         "full": true
+        }
+       },
+       "mediaOpt": {
+        "numberofDays": 30,
+        "retentionJobType": 2,
+        "waitForInlineBackupResources": true,
+        "allowOtherSchedulesToUseMediaSet": true
+       }
+      },
+      "commonOpts": {
+       "useJobStartTimeForContinuousSchedule": true,
+       "jobRetryOpts": {
+        "runningTime": {
+         "totalRunningTime": 3600
+        }
+       }
+      }
+     }
+    },
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "Synthetic Fulls",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 47
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 30,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "backupLevel": 4,
+       "incLevel": 0,
+       "runIncrementalBackup": false,
+       "doNotTruncateLog": false,
+       "vsaBackupOptions": {
+        "backupFailedVMsOnly": false
+       },
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "useMultiStream": true,
+        "useMaximumStreams": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "maxNumberOfStreams": 1,
+        "createNewIndex": true,
+        "daysBetweenSyntheticBackup": 90,
+        "autoCopy": true
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 72,
+        "minBackupIntervalMinutes": 15,
+        "minSyncIntervalMinutes": 2,
+        "newOrModifiedFile": {
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "appName": "Default Application Type Name",
+     "planId": 0,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 155,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "System created schedule policy for DDB Verification",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "8833F4BB-ECBD-420A-9F61-3DECBE72238F",
+    "policyType": 11,
+    "taskName": "System Created DDB Verification schedule policy",
+    "taskId": 17,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created DDB Verification schedule policy",
+     "taskId": 17
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 64548,
+     "nextScheduleTime": 1793980800,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 1,
+      "flags": 4096,
+      "operationType": 4007,
+      "subTaskId": 18
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 86400,
+      "freq_type": 4,
+      "patternId": 17,
+      "flags": 0,
+      "description": "Every day at 11:00 AM and repeats every 24 hr(s) 0 min(s) until 12:00 AM",
+      "active_end_time": 86340,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 39600,
+      "freq_restart_interval": 0,
+      "active_start_date": 1732233600,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "adminOpts": {
+       "archiveCheckOption": {
+        "ddbVerificationLevel": 1,
+        "jobsToVerify": 0,
+        "allCopies": true,
+        "backupLevel": 2
+       }
+      },
+      "backupOpts": {
+       "mediaOpt": {
+        "auxcopyJobOption": {
+         "maxNumberOfStreams": 0,
+         "useMaximumStreams": true,
+         "useScallableResourceManagement": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "description": "System Created Schedule Policy for Cloud Config Discovery",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 0,
+    "alertId": 0,
+    "GUID": "933362EA-AEDD-4E4F-BFC0-F0CF3720BEC9",
+    "policyType": 0,
+    "taskName": "System Created Cloud Config Discovery Schedule Policy",
+    "taskId": 1462,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": false,
+     "uninstalled": false,
+     "isServerPlanAssociated": false,
+     "isSystem": true,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "System Created Cloud Config Discovery Schedule Policy",
+     "taskId": 1462
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "System Created Cloud Config Discovery Schedule",
+      "subTaskType": 2,
+      "flags": -2147483648,
+      "operationType": 2,
+      "subTaskId": 1468
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4096,
+      "patternId": 39,
+      "flags": 0,
+      "description": "Continuous Schedule After 240 minutes",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1764633600,
+      "freq_interval": 240,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "backupLevel": 1,
+       "mediaOpt": {
+        "markMediaFullOnSuccess": false,
+        "startNewMedia": false
+       }
+      },
+      "commonOpts": {
+       "notifyUserOnJobCompletion": false,
+       "queueJobsIfConflicting": false,
+       "jobDescription": "",
+       "jobRetryOpts": {
+        "killRunningJobWhenTotalRunningTimeExpires": false,
+        "numberOfRetries": 0,
+        "enableNumberOfRetries": false,
+        "runningTime": {
+         "enableTotalRunningTime": false
+        }
+       },
+       "startUpOpts": {
+        "startWhenActivityIsLow": false,
+        "startInSuspendedState": false,
+        "useDefaultPriority": true
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 11,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 11,
+    "alertId": 0,
+    "GUID": "94e5a85d-2e8e-4a61-8abe-98d9a07a8865",
+    "policyType": 0,
+    "taskName": "30 Day Local schedule policy for the database clients",
+    "taskId": 2213,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local schedule policy for the database clients",
+     "taskId": 2213
+    }
+   },
+   "appGroup": {
+    "appGroups": [
+     {
+      "appGroupId": 13
+     },
+     {
+      "appGroupId": 114
+     },
+     {
+      "appGroupId": 129
+     },
+     {
+      "appGroupId": 100
+     },
+     {
+      "appGroupId": 11
+     },
+     {
+      "appGroupId": 111
+     },
+     {
+      "appGroupId": 101
+     },
+     {
+      "appGroupId": 90
+     },
+     {
+      "appGroupId": 83
+     },
+     {
+      "appGroupId": 12
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 14
+     },
+     {
+      "appGroupId": 104
+     },
+     {
+      "appGroupId": 134
+     }
+    ]
+   },
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 65536,
+      "operationType": 2,
+      "subTaskId": 2220
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 48,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1777334400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "sybaseSkipFullafterLogBkp": false,
+       "incrementalDataWithLogs": false,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "cumulative": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "daysBetweenSyntheticBackup": 7,
+        "autoCopy": false
+       },
+       "oracleOptions": {
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       },
+       "distAppsBackupOptions": {
+        "runLogBkp": true,
+        "runDataBkp": false
+       }
+      },
+      "commonOpts": {
+       "perfJobOpts": {},
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 4,
+        "sweepStartTime": 28800,
+        "useStorageSpaceFromMA": true,
+        "minBackupIntervalMinutes": 15,
+        "maxBackupIntervalMinutes": 0,
+        "deleteDBLogsByAppLvlConfig": false,
+        "minBackupInterval": 0,
+        "logFileNum": {
+         "threshold": 50,
+         "enabled": true
+        },
+        "diskUsedPercent": {
+         "threshold": 80,
+         "enabled": true
+        },
+        "logPercent": {
+         "threshold": 80,
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local - DL1",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 1,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local - DL1'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 1,
+    "alertId": 0,
+    "GUID": "11600bd1-317e-484e-a65d-15c9960ca565",
+    "policyType": 0,
+    "taskName": "30 Day Local - DL1 schedule policy for the database clients",
+    "taskId": 36,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local - DL1 schedule policy for the database clients",
+     "taskId": 36
+    }
+   },
+   "appGroup": {
+    "appGroups": [
+     {
+      "appGroupId": 13
+     },
+     {
+      "appGroupId": 114
+     },
+     {
+      "appGroupId": 129
+     },
+     {
+      "appGroupId": 100
+     },
+     {
+      "appGroupId": 11
+     },
+     {
+      "appGroupId": 111
+     },
+     {
+      "appGroupId": 101
+     },
+     {
+      "appGroupId": 90
+     },
+     {
+      "appGroupId": 83
+     },
+     {
+      "appGroupId": 12
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 14
+     },
+     {
+      "appGroupId": 104
+     },
+     {
+      "appGroupId": 134
+     }
+    ]
+   },
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 65536,
+      "operationType": 2,
+      "subTaskId": 37
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 23,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749168000,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "sybaseSkipFullafterLogBkp": false,
+       "incrementalDataWithLogs": false,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "cumulative": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "daysBetweenSyntheticBackup": 7,
+        "autoCopy": false
+       },
+       "oracleOptions": {
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       },
+       "distAppsBackupOptions": {
+        "runLogBkp": true,
+        "runDataBkp": false
+       }
+      },
+      "commonOpts": {
+       "perfJobOpts": {},
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 4,
+        "sweepStartTime": 28800,
+        "useStorageSpaceFromMA": true,
+        "minBackupIntervalMinutes": 15,
+        "maxBackupIntervalMinutes": 0,
+        "deleteDBLogsByAppLvlConfig": false,
+        "minBackupInterval": 0,
+        "logFileNum": {
+         "threshold": 50,
+         "enabled": true
+        },
+        "diskUsedPercent": {
+         "threshold": 80,
+         "enabled": true
+        },
+        "logPercent": {
+         "threshold": 80,
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 2,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local + 30 Day Azure AGP'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 2,
+    "alertId": 0,
+    "GUID": "50f9732f-554a-4869-9e98-28914bf99b62",
+    "policyType": 0,
+    "taskName": "30 Day Local + 30 Day Azure AGP schedule policy for the database clients",
+    "taskId": 43,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local + 30 Day Azure AGP schedule policy for the database clients",
+     "taskId": 43
+    }
+   },
+   "appGroup": {
+    "appGroups": [
+     {
+      "appGroupId": 13
+     },
+     {
+      "appGroupId": 114
+     },
+     {
+      "appGroupId": 129
+     },
+     {
+      "appGroupId": 100
+     },
+     {
+      "appGroupId": 11
+     },
+     {
+      "appGroupId": 111
+     },
+     {
+      "appGroupId": 101
+     },
+     {
+      "appGroupId": 90
+     },
+     {
+      "appGroupId": 83
+     },
+     {
+      "appGroupId": 12
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 14
+     },
+     {
+      "appGroupId": 104
+     },
+     {
+      "appGroupId": 134
+     }
+    ]
+   },
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 65536,
+      "operationType": 2,
+      "subTaskId": 45
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 28,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "sybaseSkipFullafterLogBkp": false,
+       "incrementalDataWithLogs": false,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "cumulative": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "daysBetweenSyntheticBackup": 7,
+        "autoCopy": false
+       },
+       "oracleOptions": {
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       },
+       "distAppsBackupOptions": {
+        "runLogBkp": true,
+        "runDataBkp": false
+       }
+      },
+      "commonOpts": {
+       "perfJobOpts": {},
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 4,
+        "sweepStartTime": 28800,
+        "useStorageSpaceFromMA": true,
+        "minBackupIntervalMinutes": 15,
+        "maxBackupIntervalMinutes": 0,
+        "deleteDBLogsByAppLvlConfig": false,
+        "minBackupInterval": 0,
+        "logFileNum": {
+         "threshold": 50,
+         "enabled": true
+        },
+        "diskUsedPercent": {
+         "threshold": 80,
+         "enabled": true
+        },
+        "logPercent": {
+         "threshold": 80,
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 3,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local + 30 Day AWS AGP'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 3,
+    "alertId": 0,
+    "GUID": "594ad36e-030d-4e70-88b0-a3b461fbf371",
+    "policyType": 0,
+    "taskName": "30 Day Local + 30 Day AWS AGP schedule policy for the database clients",
+    "taskId": 46,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local + 30 Day AWS AGP schedule policy for the database clients",
+     "taskId": 46
+    }
+   },
+   "appGroup": {
+    "appGroups": [
+     {
+      "appGroupId": 13
+     },
+     {
+      "appGroupId": 114
+     },
+     {
+      "appGroupId": 129
+     },
+     {
+      "appGroupId": 100
+     },
+     {
+      "appGroupId": 11
+     },
+     {
+      "appGroupId": 111
+     },
+     {
+      "appGroupId": 101
+     },
+     {
+      "appGroupId": 90
+     },
+     {
+      "appGroupId": 83
+     },
+     {
+      "appGroupId": 12
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 10
+     },
+     {
+      "appGroupId": 14
+     },
+     {
+      "appGroupId": 104
+     },
+     {
+      "appGroupId": 134
+     }
+    ]
+   },
+   "subTasks": [
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 65536,
+      "operationType": 2,
+      "subTaskId": 50
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 33,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1749686400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "sybaseSkipFullafterLogBkp": false,
+       "incrementalDataWithLogs": false,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": true,
+       "cumulative": false,
+       "doNotTruncateLog": false,
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "daysBetweenSyntheticBackup": 7,
+        "autoCopy": false
+       },
+       "oracleOptions": {
+        "deleteArchLogOptions": {
+         "backupArchiveLogCriteria": 0
+        },
+        "backupArchLogOptions": {
+         "backupArchiveLog": true,
+         "backupArchiveLogCriteria": 7,
+         "startLSN": 1,
+         "endLSN": 1
+        }
+       },
+       "distAppsBackupOptions": {
+        "runLogBkp": true,
+        "runDataBkp": false
+       }
+      },
+      "commonOpts": {
+       "perfJobOpts": {},
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 4,
+        "sweepStartTime": 28800,
+        "useStorageSpaceFromMA": true,
+        "minBackupIntervalMinutes": 15,
+        "maxBackupIntervalMinutes": 0,
+        "deleteDBLogsByAppLvlConfig": false,
+        "minBackupInterval": 0,
+        "logFileNum": {
+         "threshold": 50,
+         "enabled": true
+        },
+        "diskUsedPercent": {
+         "threshold": 80,
+         "enabled": true
+        },
+        "logPercent": {
+         "threshold": 80,
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "associations": [
+    {
+     "planName": "30 Day Local",
+     "srmReportSet": 0,
+     "srmTemplateId": 0,
+     "subclientId": 0,
+     "storagePolicyId": 0,
+     "copyId": 0,
+     "clientId": 0,
+     "srmTemplateName": "",
+     "planId": 11,
+     "clientGroupId": 0,
+     "applicationId": 0,
+     "backupsetId": 0,
+     "instanceId": 0,
+     "agentlessPolicyId": 0,
+     "mediaAgentId": 0,
+     "workflowId": 0,
+     "_type_": 158,
+     "flags": {
+      "exclude": false
+     }
+    }
+   ],
+   "task": {
+    "description": "Schedule policy created automatically for ''30 Day Local'' plan.",
+    "ownerId": 3,
+    "runUserId": 3,
+    "taskType": 4,
+    "ownerName": "master",
+    "planId": 11,
+    "alertId": 0,
+    "GUID": "082e0430-8164-479e-b52e-5527303c152d",
+    "policyType": 0,
+    "taskName": "30 Day Local",
+    "taskId": 2214,
+    "originalCC": {
+     "commCellId": 2
+    },
+    "taskFlags": {
+     "isEdgeDrive": false,
+     "isEZOperation": false,
+     "isPlanAssociated": true,
+     "uninstalled": false,
+     "isServerPlanAssociated": true,
+     "isSystem": false,
+     "isIndexBackup": false,
+     "disabled": false,
+     "isEdiscovery": false
+    },
+    "task": {
+     "taskName": "30 Day Local",
+     "taskId": 2214
+    }
+   },
+   "appGroup": {},
+   "subTasks": [
+    {
+     "relativeTime": 14148,
+     "nextScheduleTime": 1793930400,
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 2221
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 4,
+      "patternId": 49,
+      "flags": 0,
+      "description": "Every day at 9:00 PM Starting Jan  1 1970  ",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 75600,
+      "freq_restart_interval": 0,
+      "active_start_date": 1777334400,
+      "freq_interval": 1,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 1,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1001,
+       "TimeZoneName": "Client Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "bkpLatestVersion": true,
+       "collectMetaInfo": false,
+       "incrementalDataWithLogs": true,
+       "backupLevel": 2,
+       "incLevel": 1,
+       "runIncrementalBackup": false,
+       "doNotTruncateLog": false,
+       "cdrOptions": {
+        "incremental": true,
+        "dataVerificationOnly": false,
+        "full": false
+       },
+       "dataOpt": {
+        "stopWinService": true,
+        "stopDhcpService": true,
+        "useCatalogServer": true,
+        "optimizedBackup": true,
+        "followMountPoints": true,
+        "bkpFilesProctedByFS": true,
+        "granularrecovery": true,
+        "verifySynthFull": true
+       },
+       "vaultTrackerOpt": {
+        "mediaStatus": {
+         "bad": true,
+         "overwriteProtected": true,
+         "full": true
+        }
+       },
+       "mediaOpt": {
+        "numberofDays": 30,
+        "retentionJobType": 2,
+        "waitForInlineBackupResources": true,
+        "allowOtherSchedulesToUseMediaSet": true
+       }
+      },
+      "commonOpts": {
+       "useJobStartTimeForContinuousSchedule": true,
+       "jobRetryOpts": {
+        "runningTime": {
+         "totalRunningTime": 3600
+        }
+       }
+      }
+     }
+    },
+    {
+     "subTask": {
+      "subTaskOrder": 0,
+      "subTaskName": "Synthetic Fulls",
+      "subTaskType": 2,
+      "flags": 0,
+      "operationType": 2,
+      "subTaskId": 2222
+     },
+     "pattern": {
+      "active_end_occurence": 0,
+      "freq_subday_interval": 0,
+      "freq_type": 1024,
+      "patternId": 50,
+      "flags": 0,
+      "description": "Based on automatic schedule settings",
+      "active_end_time": 0,
+      "active_start_time_window": 0,
+      "active_end_date": 0,
+      "skipOccurence": 0,
+      "skipDayNumber": 0,
+      "active_start_time": 0,
+      "freq_restart_interval": 0,
+      "active_start_date": 1777334400,
+      "freq_interval": 0,
+      "freq_relative_interval": 0,
+      "name": "",
+      "freq_recurrence_factor": 0,
+      "calendar": {
+       "calendarId": 1
+      },
+      "timeZone": {
+       "TimeZoneID": 1000,
+       "TimeZoneName": "CommServe Time Zone"
+      }
+     },
+     "options": {
+      "backupOpts": {
+       "truncateLogsOnSource": false,
+       "backupLevel": 4,
+       "incLevel": 0,
+       "runIncrementalBackup": false,
+       "doNotTruncateLog": false,
+       "vsaBackupOptions": {
+        "backupFailedVMsOnly": false
+       },
+       "dataOpt": {
+        "useCatalogServer": true,
+        "followMountPoints": true,
+        "useMultiStream": true,
+        "useMaximumStreams": true,
+        "enforceTransactionLogUsage": false,
+        "skipConsistencyCheck": false,
+        "maxNumberOfStreams": 1,
+        "createNewIndex": true,
+        "daysBetweenSyntheticBackup": 90,
+        "autoCopy": true
+       }
+      },
+      "commonOpts": {
+       "automaticSchedulePattern": {
+        "maxBackupInterval": 72,
+        "minBackupIntervalMinutes": 15,
+        "minSyncIntervalMinutes": 2,
+        "newOrModifiedFile": {
+         "enabled": true
+        }
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

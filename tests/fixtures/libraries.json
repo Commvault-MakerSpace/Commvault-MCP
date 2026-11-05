@@ -1,0 +1,34 @@
+{
+ "response": [
+  {
+   "entityInfo": {
+    "name": "PE Lab Disk Library Local",
+    "id": 10
+   }
+  },
+  {
+   "entityInfo": {
+    "name": "AGP Azure Central",
+    "id": 8
+   }
+  },
+  {
+   "entityInfo": {
+    "name": "AWS AGP",
+    "id": 3
+   }
+  },
+  {
+   "entityInfo": {
+    "name": "Azure AGP USE2",
+    "id": 2
+   }
+  },
+  {
+   "entityInfo": {
+    "name": "PE Lab Disk Library",
+    "id": 1
+   }
+  }
+ ]
+}

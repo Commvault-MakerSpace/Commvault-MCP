@@ -1,0 +1,677 @@
+{
+ "totalRecordsWithoutPaging": 7,
+ "jobs": [
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 10,
+    "jobStartTime": 1793844009,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793844025,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18836,
+    "lastUpdateTime": 1793844025,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 8,
+    "jobStartTime": 1793757608,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793757620,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18806,
+    "lastUpdateTime": 1793757620,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 10,
+    "jobStartTime": 1793671212,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793671226,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18770,
+    "lastUpdateTime": 1793671226,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 7,
+    "jobStartTime": 1793584813,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793584825,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18741,
+    "lastUpdateTime": 1793584825,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 11,
+    "jobStartTime": 1793494811,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793494830,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18709,
+    "lastUpdateTime": 1793494830,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 8,
+    "jobStartTime": 1793408417,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793408428,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18672,
+    "lastUpdateTime": 1793408428,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 12,
+    "jobStartTime": 1793322007,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793322028,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18638,
+    "lastUpdateTime": 1793322028,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  }
+ ]
+}

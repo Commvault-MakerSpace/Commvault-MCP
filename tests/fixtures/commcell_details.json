@@ -1,0 +1,69 @@
+{
+ "cacheId": "3f13af7f7a5f47c7a9a624d4b5139b04",
+ "offset": 0,
+ "limit": 0,
+ "totalRecordCount": 1,
+ "columns": [
+  {
+   "name": "sys_rowid",
+   "dataField": "sys_rowid",
+   "displayName": "$row_number$",
+   "type": "Long",
+   "precision": 64,
+   "scale": 0
+  },
+  {
+   "name": "Data Source",
+   "dataField": "Data Source",
+   "displayName": "Data Source",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "CommCellID",
+   "dataField": "CommCellID",
+   "displayName": "CommCellID",
+   "type": "Integer",
+   "precision": 32,
+   "scale": 0
+  },
+  {
+   "name": "CommCellName",
+   "dataField": "CommCellName",
+   "displayName": "CommCellName",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "Version",
+   "dataField": "Version",
+   "displayName": "Version",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  },
+  {
+   "name": "ReleaseName",
+   "dataField": "ReleaseName",
+   "displayName": "ReleaseName",
+   "type": "String",
+   "precision": 1000000000,
+   "scale": 0
+  }
+ ],
+ "recordsCount": 1,
+ "records": [
+  [
+   1,
+   "pe-cv-l01",
+   15602,
+   "pe-cv-l01",
+   "11 SP46.40",
+   null
+  ]
+ ],
+ "failures": {},
+ "warnings": {}
+}

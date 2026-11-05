@@ -1,0 +1,267 @@
+{
+ "companyId": 0,
+ "securityCategories": [
+  {
+   "category": 0,
+   "parameter": [
+    {
+     "active": "Active",
+     "recommendation": "5 or fewer failed log-ins",
+     "paramName": "Failed login lockout count",
+     "currentSetting": "5 failed logins",
+     "paramId": 3,
+     "remarks": "This setting is not following recommendations in accordance to AC-7 NIST 800-53 publication.<br><a href=#/commCell target=\"_blank\">Click here</a> to configure by going to <b>settings</b> section on the page.",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "30 minutes or more",
+     "paramName": "Account lockout duration",
+     "currentSetting": "30 minutes",
+     "paramId": 4,
+     "remarks": "This setting is not following recommendations in accordance to AC-7 NIST 800-53 publication.<br><a href=#/commCell target=\"_blank\">Click here</a> to configure by going to <b>settings</b> section on the page.",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "It is recommended to enable this feature so delete requests require additional authorization for approval.",
+     "paramName": "Delete authorization",
+     "currentSetting": "Enabled",
+     "paramId": 5,
+     "remarks": "When this setting is enabled, deletion requests will require approval from another administrator, protecting against accidental and malicious destructive tasks. This cannot be disabled once it is enabled.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "It is recommended to enable this feature so restore requests require additional authorization for approval.",
+     "paramName": "Restore authorization",
+     "currentSetting": "Enabled",
+     "paramId": 6,
+     "remarks": "When this setting is enabled, restore requests will require approval from another administrator, providing extra privacy protection. This cannot be disabled once it is enabled.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "It is recommended to enable multi-factor authentication to secure login accounts managed by Commvault.",
+     "paramName": "Multi-factor authentication",
+     "currentSetting": "Disabled",
+     "paramId": 12,
+     "remarks": "<a href=#/commCell target=\"_blank\">Click here</a> to configure by going to <b>general</b> section on the page.",
+     "status": 2
+    },
+    {
+     "active": "Active",
+     "recommendation": "GUI timeout should be 30 minutes or less",
+     "paramName": "Command Center timeout period",
+     "currentSetting": "Command Center will timeout after 30 minutes",
+     "paramId": 14,
+     "remarks": "This setting is following recommendations in accordance to AC-7 NIST 800-53 publication",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "GUI timeout should be 30 minutes or less",
+     "paramName": "Commcell Console timeout period",
+     "currentSetting": "Commcell Console will timeout after 30 minutes.",
+     "paramId": 15,
+     "remarks": "This setting is following recommendations in accordance to AC-7 NIST 800-53 publication",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "Longer passwords are recommended. Enforce passwords to be twelve characters or more with a combination of at least two uppercase letters, two lowercase letters, two numbers and two special characters.",
+     "paramName": "Password complexity level",
+     "currentSetting": "Medium",
+     "paramId": 11,
+     "remarks": "<a href=#/commCell target=\"_blank\">Click here</a> to enable high password complexity by going to <b>settings</b> section on the page.",
+     "status": 2
+    },
+    {
+     "active": "Active",
+     "recommendation": "Apply a password rotation policy for credentials associated with critical resources like virtual machines, storage accounts, and databases to reduce the risk of credential compromise and replay attacks.",
+     "paramName": "Password rotation policy",
+     "currentSetting": "Credentials for critical resources have not been rotated.",
+     "paramId": 29,
+     "remarks": "<a href=#/credentialManager target=\"_blank\">Click here</a> to review credentials that have not been rotated.",
+     "status": 2
+    }
+   ]
+  },
+  {
+   "category": 3,
+   "parameter": [
+    {
+     "active": "Active",
+     "recommendation": "Enable this option to allow restrictions for browse and restores only for company tenants",
+     "paramName": "Privacy feature",
+     "currentSetting": "Disabled",
+     "paramId": 18,
+     "remarks": "<a href=#/commCell target=\"_blank\">Click here</a> to configure by going to <b>privacy</b> section on the page.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "Enable this option to allow password-protected restores only for company tenants",
+     "paramName": "Passkey for restore feature",
+     "currentSetting": "No client computer owners have enabled the passkey for restore operations",
+     "paramId": 19,
+     "remarks": "<a href=#/commCell target=\"_blank\">Click here</a> to configure by going to <b>passkey</b> section on the page.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "",
+     "paramName": "Requires user authentication for installing agents",
+     "currentSetting": "Authentication is required",
+     "paramId": 23,
+     "remarks": "",
+     "status": 0
+    }
+   ]
+  },
+  {
+   "category": 1,
+   "parameter": [
+    {
+     "active": "Not Applicable",
+     "recommendation": "Retention for Critical audit trail: 1 year\nRetention for High audit trail: 1 year\nRetention for Medium audit trail: 8 months\nRetention for Low audit trail: 4 months",
+     "paramName": "Audit trail",
+     "currentSetting": "Retention for Critical audit trail: 1 year<br>Retention for High audit trail: 1 year<br>Retention for Medium audit trail: 8 months<br>Retention for Low audit trail: 4 months",
+     "paramId": 7,
+     "remarks": "<a href=#/reportDetails?reportId=AuditTrailReport target=\"_blank\">View full audit trail report</a> for export options",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "Review and remove unused CommCell management entities",
+     "paramName": "Cleanup of unused entities",
+     "currentSetting": "0 user groups without users<br>0 users without security associations<br>3 users not logged-in in 30 days",
+     "paramId": 16,
+     "remarks": "Review user security configurations to identify and mitigate potential user access risks.<br><a href=#/reportDetails?reportName=Cleanup%20Report target=\"_blank\">Click here</a> to view.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "Review and remove privileged access accounts that are no longer needed",
+     "paramName": "User and user group permissions",
+     "currentSetting": "View users in master group",
+     "paramId": 17,
+     "remarks": "<a href=#/reportDetails?reportId=2530e3e4-33d1-44a0-e24d-c0d3d2fba0d1&pageName=UserListing&input.Commcell=%5B%22pe-cv-l01%22%5D&input.userGroups=%5B%22master%22%5D target=\"_blank\">Click here</a> to view details.",
+     "status": 1
+    }
+   ]
+  },
+  {
+   "category": 4,
+   "parameter": [
+    {
+     "active": "Active",
+     "recommendation": "",
+     "paramName": "Windows MediaAgents with admin shares configured",
+     "currentSetting": "No MediaAgents have mount paths configured using admin shares",
+     "paramId": 25,
+     "remarks": "",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "",
+     "paramName": "Disaster Recovery dump location is configured using admin shares",
+     "currentSetting": "DR dump location is not configured using admin shares",
+     "paramId": 27,
+     "remarks": "",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "",
+     "paramName": "Windows MediaAgents with admin shares enabled",
+     "currentSetting": "1 MediaAgents have admin shares enabled",
+     "paramId": 28,
+     "remarks": "<a href=#/reportDetails?reportName=MediaAgent%20with%20admin%20share%20configured target=\"_blank\">Click here</a> to view details.",
+     "status": 2
+    },
+    {
+     "active": "Active",
+     "recommendation": "Consider migrating critical backup infrastructure to dedicated physical servers to ensure maximum isolation and resilience against hypervisor-level attacks.",
+     "paramName": "CommServe or MediaAgent is installed on a virtual machine.",
+     "currentSetting": "CommServe or MediaAgent(s) are installed on the virtual machine.",
+     "paramId": 30,
+     "remarks": "",
+     "status": 2
+    }
+   ]
+  },
+  {
+   "category": 2,
+   "parameter": [
+    {
+     "active": "Active",
+     "recommendation": "Encrypt storage",
+     "paramName": "Storage with encryption",
+     "currentSetting": "4/7 storage have encryption enabled",
+     "paramId": 8,
+     "remarks": "<a href=#/securityDashboard/storageEncryptions target=\"_blank\">Click here</a> to see storage encryption details",
+     "status": 2
+    },
+    {
+     "active": "Not Applicable",
+     "recommendation": "Configure a third-party encryption key management server as required by your organization",
+     "paramName": "Key Management",
+     "currentSetting": "Not Configured",
+     "paramId": 9,
+     "remarks": "<a href=#/keyManagement target=\"_blank\">Click here</a> to configure a third-party key management server",
+     "status": 1
+    },
+    {
+     "active": "Not Applicable",
+     "recommendation": "It is recommended to enable compliance lock for storage to restrict the ability to reduce retention on a plan, delete plans, plan copies, storage or servers associated with a plan. This option may not be turned off once enabled. ",
+     "paramName": "Compliance lock",
+     "currentSetting": "4/6 storage has compliance lock enabled",
+     "paramId": 10,
+     "remarks": "<a href=#/reportDetails?reportName=Storage%20and%20Compliance%20lock%20details&input.CompanyId=0 target=\"_blank\">Click here</a> to view report and enable compliance lock on select storage. ",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "Commvault recommends that you enable this feature",
+     "paramName": "Ransomware protection",
+     "currentSetting": "All media agents are secured against ransomware.",
+     "paramId": 20,
+     "remarks": "<a href=#/reportDetails?reportName=Enable%20Ransomware%20Protection target=\"_blank\">Click here</a> to view details.",
+     "status": 0
+    },
+    {
+     "active": "Active",
+     "recommendation": "Enable this alert to receive anomaly alerts",
+     "paramName": "Threat Indicator",
+     "currentSetting": "Disabled",
+     "paramId": 21,
+     "remarks": "<a href=#/alertsDefinitions target=\"_blank\">Click here</a> to configure this alert.",
+     "status": 2
+    },
+    {
+     "active": "Active",
+     "recommendation": "Use a third-party key management server to encrypt account passwords used for login as required by your organization",
+     "paramName": "Key Management Server for Password Encryption",
+     "currentSetting": "Built-in key management service is used.",
+     "paramId": 22,
+     "remarks": "<a href=#/commCell target=\"_blank\">Click here</a> to configure a third-party key management server by going to <b>password encryption</b> section on the page.",
+     "status": 1
+    },
+    {
+     "active": "Active",
+     "recommendation": "It's recommended that you protect your DR backup in the Metallic cloud or your own cloud for air gap protection",
+     "paramName": "Disaster Recovery Backup",
+     "currentSetting": "DR backup is configured to cloud.",
+     "paramId": 24,
+     "remarks": "<a href=#/reportDetails?reportId=Disaster%20Recovery%20Backup%20Metrics&commUniId=10000 target=\"_blank\">Click here</a> to view details.",
+     "status": 0
+    }
+   ]
+  }
+ ],
+ "error": {
+  "errorCode": 0
+ }
+}

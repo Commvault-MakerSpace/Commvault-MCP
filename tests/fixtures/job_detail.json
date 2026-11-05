@@ -1,0 +1,128 @@
+{
+ "totalRecordsWithoutPaging": 1,
+ "hasNextPage": false,
+ "jobs": [
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "totalSkippedObjects": 0,
+    "jobAttributes": 288230376151711744,
+    "isAged": false,
+    "snapBkpCopyJobID": 0,
+    "statusId": 2,
+    "sizeOfMediaOnDisk": 0,
+    "contentIndexed": false,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "isReconcileBackup": false,
+    "jobCategory": 1,
+    "snapToTapeStatus": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 10,
+    "jobStartTime": 1793844009,
+    "retention": 1,
+    "appTypeName": "Windows File System",
+    "primaryCopyLibrary": "",
+    "extendedJobType": 0,
+    "totalWriteTime": 0,
+    "subclientName": "BackupData_2026",
+    "totalDataWriten": 0,
+    "jobEndTime": 1793844025,
+    "commcellId": 2,
+    "compressionType": 2,
+    "pruningStatus": 0,
+    "isLaptop": false,
+    "jobAttributesEx": 8804682956800,
+    "workloadName": "CIFS",
+    "isManualRetained": false,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18836,
+    "isAgedOrSoftDeleted": false,
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "description": "",
+    "isAdminJob": false,
+    "isSystemState": false,
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "isThreatAnalysisJob": false,
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "snapDeferredCatalogStatus": 0,
+    "averageThroughput": 0,
+    "isSoftDeletedJob": false,
+    "localizedBackupLevelName": "Incremental",
+    "securityAssemblyEntity": {},
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "subTaskEntity": {
+     "subtaskId": 38,
+     "subtaskName": ""
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "taskEntity": {
+     "taskName": "30 Day Local - DL1",
+     "taskId": 37
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "mediaAgent": {
+     "mediaAgentId": 0,
+     "mediaAgentName": "pe-cv-l01.lab.local"
+    },
+    "replicationGroupEntity": {},
+    "runbookTemplate": {
+     "runbookId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "displayName": "Rbk_192.168.1.83",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": "Commcell",
+     "GUID": "95189D4E-4A7F-4CB3-969F-80D5871AC13F"
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  }
+ ]
+}

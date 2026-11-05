@@ -1,0 +1,4937 @@
+{
+ "totalRecordsWithoutPaging": 217,
+ "jobs": [
+  {
+   "jobSummary": {
+    "sizeOfApplication": 6463651058,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1574576858,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 75.6395,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 2101134716,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 224,
+    "jobStartTime": 1793322007,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793322007,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793322249,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 8405,
+    "jobId": 18637,
+    "lastUpdateTime": 1793322249,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 107.816,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 54,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 12,
+    "jobStartTime": 1793322007,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793322028,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18638,
+    "lastUpdateTime": 1793322028,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 13,
+    "jobStartTime": 1793322008,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1795914008,
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rubrik_192.168.1.83",
+    "jobEndTime": 1793322029,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956802,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18639,
+    "lastUpdateTime": 1793322029,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rubrik_192.168.1.83",
+     "displayName": "Rubrik_192.168.1.83_toDelete",
+     "clientId": 49
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rubrik_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 64,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 90,
+     "clientId": 49,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 13,
+    "jobStartTime": 1793322008,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1795914008,
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rubrik_192.168.1.96",
+    "jobEndTime": 1793322029,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956802,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18640,
+    "lastUpdateTime": 1793322029,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rubrik_192.168.1.96",
+     "displayName": "Rubrik_192.168.1.96",
+     "clientId": 53
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rubrik_192.168.1.96",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 71,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 98,
+     "clientId": 53,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 12150605,
+    "vsaParentJobID": 18637,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 107892,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 99.112,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 1183638,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 122,
+    "jobStartTime": 1793322050,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795914050,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l11__CV_Lab_",
+    "jobEndTime": 1793322174,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 22,
+    "jobId": 18641,
+    "lastUpdateTime": 1793322174,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18637) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0.993612,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l11__CV_Lab_",
+     "displayName": "pe-cv-l11 (CV Lab)",
+     "clientId": 30
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l11__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 47,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 57,
+     "clientId": 30,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 5874427,
+    "vsaParentJobID": 18637,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 54987,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 99.064,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 533096,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 79,
+    "jobStartTime": 1793322050,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795914050,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l12__CV_Lab_",
+    "jobEndTime": 1793322131,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 13,
+    "jobId": 18642,
+    "lastUpdateTime": 1793322131,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18637) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 1.15856,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l12__CV_Lab_",
+     "displayName": "pe-cv-l12 (CV Lab)",
+     "clientId": 31
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l12__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 46,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 56,
+     "clientId": 31,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 6445626026,
+    "vsaParentJobID": 18637,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1574413979,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 75.5739,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 2099417982,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 192,
+    "jobStartTime": 1793322050,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795914050,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l08___CV_Lab_",
+    "jobEndTime": 1793322244,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 8370,
+    "jobId": 18643,
+    "lastUpdateTime": 1793322244,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18637) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 209.812,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l08___CV_Lab_",
+     "displayName": "pe-cv-l08  (CV Lab)",
+     "clientId": 18
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 17,
+      "clientGroupName": "AWS Recovery Group"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l08___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 45,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 55,
+     "clientId": 18,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 6463654385,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 156,
+    "jobStartTime": 1793322396,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793322552,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18644,
+    "lastUpdateTime": 1793322552,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 6463654385,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 171,
+    "jobStartTime": 1793322395,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793322566,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18645,
+    "lastUpdateTime": 1793322566,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 12022,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 19,
+    "jobStartTime": 1793332805,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1795924805,
+    "currentThroughput": 0,
+    "subclientName": "test",
+    "destClientName": "pe-cv-l26",
+    "jobEndTime": 1793332828,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8796093022210,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18646,
+    "lastUpdateTime": 1793332828,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l26",
+     "displayName": "pe-cv-l26",
+     "clientId": 37
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 1,
+      "clientGroupName": "Infrastructure"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 3,
+      "clientGroupName": "Media Agents"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l26",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 42,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 12022,
+     "subclientId": 99,
+     "clientId": 37,
+     "appName": "Windows File System",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 33,
+     "subclientName": "test"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 11544663310,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 1,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 3136721700,
+    "currentPhase": 0,
+    "status": "Completed w/ one or more errors",
+    "percentSavings": 72.8297,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 4085881963,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 511,
+    "jobStartTime": 1793365210,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793365210,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793365745,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed with one or more errors",
+    "totalNumOfFiles": 12476,
+    "jobId": 18647,
+    "lastUpdateTime": 1793365745,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 78.3532,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 58,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 1067753649,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 776500909,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 27.2771,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 808232250,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 117,
+    "jobStartTime": 1793365210,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793365210,
+    "currentThroughput": 0,
+    "subclientName": "la-ru-lin01",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793365353,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 1026,
+    "jobId": 18648,
+    "lastUpdateTime": 1793365353,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 35.7992,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 95,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "la-ru-lin01"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 141,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "DDB Space Reclamation",
+    "estMediaSize": 0,
+    "jobElapsedTime": 308,
+    "jobStartTime": 1793365209,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793365517,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18649,
+    "lastUpdateTime": 1793365517,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "DDB Space Reclamation",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "Azure AGP USE2",
+     "storagePolicyId": 5
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 141,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "DDB Space Reclamation",
+    "estMediaSize": 0,
+    "jobElapsedTime": 272,
+    "jobStartTime": 1793365206,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793365478,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18650,
+    "lastUpdateTime": 1793365478,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "DDB Space Reclamation",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "Azure AGP Central",
+     "storagePolicyId": 14
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 1067753649,
+    "vsaParentJobID": 18648,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 776500909,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 27.2771,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 808232250,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 92,
+    "jobStartTime": 1793365254,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795957254,
+    "currentThroughput": 0,
+    "subclientName": "la-ru-lin01",
+    "destClientName": "la-ru-lin01",
+    "jobEndTime": 1793365348,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 1026,
+    "jobId": 18651,
+    "lastUpdateTime": 1793365348,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18648) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 99.4423,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "la-ru-lin01",
+     "displayName": "la-ru-lin01",
+     "clientId": 52
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "la-ru-lin01",
+     "instanceName": "VMInstance",
+     "backupsetId": 69,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 94,
+     "clientId": 52,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "la-ru-lin01"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 2671296,
+    "vsaParentJobID": 18647,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 92622,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 96.5327,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 410332,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 175,
+    "jobStartTime": 1793365255,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795957255,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l05___CV_Lab_",
+    "jobEndTime": 1793365433,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 17,
+    "jobId": 18652,
+    "lastUpdateTime": 1793365433,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18647) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0.248784,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l05___CV_Lab_",
+     "displayName": "pe-cv-l05  (CV Lab)",
+     "clientId": 22
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l05___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 51,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 62,
+     "clientId": 22,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 7800084855,
+    "vsaParentJobID": 18647,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1776133212,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 77.2293,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 2569416739,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 311,
+    "jobStartTime": 1793365255,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795957255,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l07___CV_Lab_",
+    "jobEndTime": 1793365568,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 8797,
+    "jobId": 18653,
+    "lastUpdateTime": 1793365568,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18647) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 136.921,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l07___CV_Lab_",
+     "displayName": "pe-cv-l07  (CV Lab)",
+     "clientId": 40
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l07___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 50,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 61,
+     "clientId": 40,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 3571501641,
+    "vsaParentJobID": 18647,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1354740999,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 62.068,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 1492746518,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 289,
+    "jobStartTime": 1793365255,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795957255,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l18__CV_Lab_",
+    "jobEndTime": 1793365546,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 3493,
+    "jobId": 18654,
+    "lastUpdateTime": 1793365546,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18647) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 168.653,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l18__CV_Lab_",
+     "displayName": "pe-cv-l18 (CV Lab)",
+     "clientId": 39
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l18__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 49,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 60,
+     "clientId": 39,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 170405518,
+    "vsaParentJobID": 18647,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 5754867,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 96.6228,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 23308374,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 484,
+    "jobStartTime": 1793365255,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795957255,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l13__CV_Lab_",
+    "jobEndTime": 1793365741,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 169,
+    "jobId": 18655,
+    "lastUpdateTime": 1793365741,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18647) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 1.9108,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l13__CV_Lab_",
+     "displayName": "pe-cv-l13 (CV Lab)",
+     "clientId": 32
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l13__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 48,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 59,
+     "clientId": 32,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 12612421950,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 310,
+    "jobStartTime": 1793365547,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793365857,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18656,
+    "lastUpdateTime": 1793365857,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 2163780391,
+    "vsaParentJobID": 0,
+    "backupSetName": "DR-BackupSet",
+    "opType": 11,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 2163780391,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Disaster Recovery Backup",
+    "estMediaSize": 2163780391,
+    "extRetentionFlags": 0,
+    "backupLevel": 1,
+    "jobElapsedTime": 164,
+    "jobStartTime": 1793368802,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "CommServe Management",
+    "currentThroughput": 0,
+    "subclientName": "DR Subclient",
+    "destClientName": "pe-cv-l01",
+    "jobEndTime": 1793368966,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18657,
+    "lastUpdateTime": 1793368966,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "CS DR Backup",
+    "backupLevelName": "Full",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Full",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l01",
+     "displayName": "pe-cv-l01",
+     "clientId": 2
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 1,
+      "clientGroupName": "Infrastructure"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 3,
+      "clientGroupName": "Media Agents"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l01",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 2,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 0,
+     "subclientId": 1,
+     "clientId": 2,
+     "appName": "CommServe Management",
+     "backupsetName": "DR-BackupSet",
+     "applicationId": 1000,
+     "subclientName": "DR Subclient"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "CommServeDR",
+     "storagePolicyId": 2
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 106,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "DDB Verification",
+    "estMediaSize": 0,
+    "jobElapsedTime": 171,
+    "jobStartTime": 1793372411,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793372582,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18658,
+    "lastUpdateTime": 1793372582,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "DDB Verification",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "PE Lab Disk Library",
+     "storagePolicyId": 3
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 106,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "DDB Verification",
+    "estMediaSize": 0,
+    "jobElapsedTime": 388,
+    "jobStartTime": 1793372412,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793372800,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18659,
+    "lastUpdateTime": 1793372800,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "DDB Verification",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "PE Lab Disk Library",
+     "storagePolicyId": 3
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 10,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Data Aging",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 58,
+    "jobStartTime": 1793376006,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793376064,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18660,
+    "lastUpdateTime": 1793376064,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Prune",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 1
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 14242926,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 207,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 7007,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 2577617,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 81.9025,
+    "localizedOperationName": "Index Server backup",
+    "estMediaSize": 2661127,
+    "extRetentionFlags": 0,
+    "backupLevel": 1,
+    "jobElapsedTime": 27,
+    "jobStartTime": 1793379612,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Distributed Data Platforms",
+    "currentThroughput": 0,
+    "subclientName": "default",
+    "destClientName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+    "jobEndTime": 1793379653,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 65536,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 64,
+    "jobId": 18661,
+    "lastUpdateTime": 1793379653,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Index Server Backup",
+    "backupLevelName": "Full",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 11.9383,
+    "localizedBackupLevelName": "Full",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "displayName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "clientId": 15
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 5,
+      "clientGroupName": "Index Servers"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "instanceName": "classicIndexInstance",
+     "backupsetId": 15,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 7,
+     "workloadId": 7007,
+     "subclientId": 20,
+     "clientId": 15,
+     "appName": "Distributed Data Platforms",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 64,
+     "subclientName": "default"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 207,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 7007,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Index Server backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 1,
+    "jobElapsedTime": 15,
+    "jobStartTime": 1793379612,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Distributed Data Platforms",
+    "currentThroughput": 0,
+    "subclientName": "default",
+    "destClientName": "30 Day Local - DL1_IndexServer",
+    "jobEndTime": 1793379640,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 65536,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18662,
+    "lastUpdateTime": 1793379640,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Index Server Backup",
+    "backupLevelName": "Full",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Full",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "30 Day Local - DL1_IndexServer",
+     "displayName": "30 Day Local - DL1_IndexServer",
+     "clientId": 16
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 5,
+      "clientGroupName": "Index Servers"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "30 Day Local - DL1_IndexServer",
+     "instanceName": "classicIndexInstance",
+     "backupsetId": 16,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 8,
+     "workloadId": 7007,
+     "subclientId": 21,
+     "clientId": 16,
+     "appName": "Distributed Data Platforms",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 64,
+     "subclientName": "default"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 207,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 7007,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Index Server backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 1,
+    "jobElapsedTime": 14,
+    "jobStartTime": 1793379612,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Distributed Data Platforms",
+    "currentThroughput": 0,
+    "subclientName": "default",
+    "destClientName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+    "jobEndTime": 1793379641,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 65536,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18663,
+    "lastUpdateTime": 1793379641,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Index Server Backup",
+    "backupLevelName": "Full",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Full",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "displayName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "clientId": 19
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 5,
+      "clientGroupName": "Index Servers"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "instanceName": "classicIndexInstance",
+     "backupsetId": 19,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 9,
+     "workloadId": 7007,
+     "subclientId": 24,
+     "clientId": 19,
+     "appName": "Distributed Data Platforms",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 64,
+     "subclientName": "default"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 4,
+    "jobStartTime": 1793379951,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793379955,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18664,
+    "lastUpdateTime": 1793379955,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 4,
+    "jobStartTime": 1793379951,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793379955,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18665,
+    "lastUpdateTime": 1793379955,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 14242926,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 62,
+    "jobStartTime": 1793379952,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793380014,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18666,
+    "lastUpdateTime": 1793380014,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 8772652892,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 14,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376185266176,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 24178464,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 99.7244,
+    "localizedOperationName": "Synthetic Full",
+    "estMediaSize": 1860227727,
+    "extRetentionFlags": 0,
+    "backupLevel": 64,
+    "jobElapsedTime": 117,
+    "jobStartTime": 1793390410,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1795982410,
+    "currentThroughput": 0,
+    "subclientName": "la-ru-lin01",
+    "destClientName": "la-ru-lin01",
+    "jobEndTime": 1793390573,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 2199023271936,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 8385,
+    "jobId": 18669,
+    "lastUpdateTime": 1793390573,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Synthetic Full",
+    "backupLevelName": "Synthetic Full",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 919.144,
+    "localizedBackupLevelName": "Synthetic Full",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planId": 0
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "la-ru-lin01",
+     "displayName": "la-ru-lin01",
+     "clientId": 52
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "la-ru-lin01",
+     "instanceName": "VMInstance",
+     "backupsetId": 69,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 94,
+     "clientId": 52,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "la-ru-lin01"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "SystemCreatedAdmin",
+     "userId": 1
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 8773663221,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 157,
+    "jobStartTime": 1793390519,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793390676,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18670,
+    "lastUpdateTime": 1793390676,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 4368051162,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 628757661,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 85.6055,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 1044759910,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 213,
+    "jobStartTime": 1793408416,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793408416,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793408640,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 6373,
+    "jobId": 18671,
+    "lastUpdateTime": 1793408640,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 77.0791,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 54,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 288230376151711744,
+    "isAged": true,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Failed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 8,
+    "jobStartTime": 1793408417,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rbk_192.168.1.83",
+    "jobEndTime": 1793408428,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956800,
+    "isVisible": true,
+    "localizedStatus": "Failed",
+    "totalNumOfFiles": 0,
+    "jobId": 18672,
+    "lastUpdateTime": 1793408428,
+    "statusColor": "black",
+    "pendingReason": "Configured content does not exist.<br/>Source: pe-cv-l26, Process: FileScan",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "17:11",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "clientId": 50
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rbk_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 66,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 82,
+     "clientId": 50,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 9,
+    "jobStartTime": 1793408415,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1796000415,
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rubrik_192.168.1.83",
+    "jobEndTime": 1793408429,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956802,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18673,
+    "lastUpdateTime": 1793408429,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rubrik_192.168.1.83",
+     "displayName": "Rubrik_192.168.1.83_toDelete",
+     "clientId": 49
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rubrik_192.168.1.83",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 64,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 90,
+     "clientId": 49,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "Rubrik_Files",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 5001,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 9,
+    "jobStartTime": 1793408416,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1796000416,
+    "currentThroughput": 0,
+    "subclientName": "BackupData_2026",
+    "destClientName": "Rubrik_192.168.1.96",
+    "jobEndTime": 1793408429,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8804682956802,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18674,
+    "lastUpdateTime": 1793408429,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "Rubrik_192.168.1.96",
+     "displayName": "Rubrik_192.168.1.96",
+     "clientId": 53
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "Rubrik_192.168.1.96",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 71,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 5001,
+     "subclientId": 98,
+     "clientId": 53,
+     "appName": "Windows File System",
+     "backupsetName": "Rubrik_Files",
+     "applicationId": 33,
+     "subclientName": "BackupData_2026"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 12150605,
+    "vsaParentJobID": 18671,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 107971,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 99.1114,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 1180244,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 128,
+    "jobStartTime": 1793408452,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796000452,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l11__CV_Lab_",
+    "jobEndTime": 1793408581,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 22,
+    "jobId": 18675,
+    "lastUpdateTime": 1793408581,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18671) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 1.13161,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l11__CV_Lab_",
+     "displayName": "pe-cv-l11 (CV Lab)",
+     "clientId": 30
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l11__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 47,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 57,
+     "clientId": 30,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 5874427,
+    "vsaParentJobID": 18671,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 54999,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 99.0638,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 531564,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 77,
+    "jobStartTime": 1793408452,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796000452,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l12__CV_Lab_",
+    "jobEndTime": 1793408530,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 13,
+    "jobId": 18676,
+    "lastUpdateTime": 1793408530,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18671) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 1.23097,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l12__CV_Lab_",
+     "displayName": "pe-cv-l12 (CV Lab)",
+     "clientId": 31
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l12__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 46,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 56,
+     "clientId": 31,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 4350026130,
+    "vsaParentJobID": 18671,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 628594691,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 85.5496,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 1043048102,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 183,
+    "jobStartTime": 1793408452,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796000452,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + Azure AGP",
+    "destClientName": "pe-cv-l08___CV_Lab_",
+    "jobEndTime": 1793408636,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 6338,
+    "jobId": 18677,
+    "lastUpdateTime": 1793408636,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18671) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 182.307,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l08___CV_Lab_",
+     "displayName": "pe-cv-l08  (CV Lab)",
+     "clientId": 18
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 17,
+      "clientGroupName": "AWS Recovery Group"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l08___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 45,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 55,
+     "clientId": 18,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + Azure AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 4368054489,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 118,
+    "jobStartTime": 1793408763,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793408881,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18678,
+    "lastUpdateTime": 1793408881,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 4368054489,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 137,
+    "jobStartTime": 1793408764,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793408901,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18679,
+    "lastUpdateTime": 1793408901,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day Azure AGP",
+     "planId": 2
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day Azure AGP",
+     "storagePolicyId": 7
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 0,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 12022,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441151880758558720,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 0,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 9,
+    "jobStartTime": 1793419209,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Windows File System",
+    "retainUntil": 1796011209,
+    "currentThroughput": 0,
+    "subclientName": "test",
+    "destClientName": "pe-cv-l26",
+    "jobEndTime": 1793419221,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8796093022210,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18680,
+    "lastUpdateTime": 1793419221,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local - DL1",
+     "planId": 1
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l26",
+     "displayName": "pe-cv-l26",
+     "clientId": 37
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 1,
+      "clientGroupName": "Infrastructure"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 3,
+      "clientGroupName": "Media Agents"
+     },
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l26",
+     "instanceName": "DefaultInstanceName",
+     "backupsetId": 42,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 1,
+     "workloadId": 12022,
+     "subclientId": 99,
+     "clientId": 37,
+     "appName": "Windows File System",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 33,
+     "subclientName": "test"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local - DL1",
+     "storagePolicyId": 4
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 8557544524,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1623167478,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 81.0323,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 2521683828,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 481,
+    "jobStartTime": 1793451608,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793451608,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793452117,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 8984,
+    "jobId": 18681,
+    "lastUpdateTime": 1793452117,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 62.5085,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 58,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 875868125,
+    "vsaParentJobID": 0,
+    "backupSetName": "defaultBackupSet",
+    "opType": 144,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 667077644,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 23.8381,
+    "localizedOperationName": "VM Admin Job(Backup)",
+    "estMediaSize": 680910673,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 120,
+    "jobStartTime": 1793451609,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1793451609,
+    "currentThroughput": 0,
+    "subclientName": "la-ru-lin01",
+    "destClientName": "vc.lab.local",
+    "jobEndTime": 1793451757,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 8797166764032,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 843,
+    "jobId": 18682,
+    "lastUpdateTime": 1793451757,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "VM Admin Job(Backup)",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 28.5105,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "clientId": 38
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "vc.lab.local",
+     "instanceName": "VMware",
+     "backupsetId": 44,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 12,
+     "workloadId": 10101,
+     "subclientId": 95,
+     "clientId": 38,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "la-ru-lin01"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 875868125,
+    "vsaParentJobID": 18682,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 667077644,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 23.8381,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 680910673,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 94,
+    "jobStartTime": 1793451656,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796043656,
+    "currentThroughput": 0,
+    "subclientName": "la-ru-lin01",
+    "destClientName": "la-ru-lin01",
+    "jobEndTime": 1793451752,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 843,
+    "jobId": 18683,
+    "lastUpdateTime": 1793451752,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18682) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 75.2968,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "la-ru-lin01",
+     "displayName": "la-ru-lin01",
+     "clientId": 52
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "la-ru-lin01",
+     "instanceName": "VMInstance",
+     "backupsetId": 69,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 94,
+     "clientId": 52,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "la-ru-lin01"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 2671296,
+    "vsaParentJobID": 18681,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 92704,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 96.5296,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 407986,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 182,
+    "jobStartTime": 1793451657,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796043657,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l05___CV_Lab_",
+    "jobEndTime": 1793451841,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 17,
+    "jobId": 18684,
+    "lastUpdateTime": 1793451841,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18681) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0.248784,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l05___CV_Lab_",
+     "displayName": "pe-cv-l05  (CV Lab)",
+     "clientId": 22
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l05___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 51,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 62,
+     "clientId": 22,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 6276013750,
+    "vsaParentJobID": 18681,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 1038863733,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 83.4471,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 1808941785,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 259,
+    "jobStartTime": 1793451657,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796043657,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l07___CV_Lab_",
+    "jobEndTime": 1793451917,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 6752,
+    "jobId": 18685,
+    "lastUpdateTime": 1793451917,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18681) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 134.884,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l07___CV_Lab_",
+     "displayName": "pe-cv-l07  (CV Lab)",
+     "clientId": 40
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l07___CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 50,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 61,
+     "clientId": 40,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 2222725516,
+    "vsaParentJobID": 18681,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 579600778,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 73.9239,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 706305022,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 256,
+    "jobStartTime": 1793451657,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796043657,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l18__CV_Lab_",
+    "jobEndTime": 1793451915,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 2155,
+    "jobId": 18686,
+    "lastUpdateTime": 1793451915,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18681) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 149.045,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l18__CV_Lab_",
+     "displayName": "pe-cv-l18 (CV Lab)",
+     "clientId": 39
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l18__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 49,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 60,
+     "clientId": 39,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 56133962,
+    "vsaParentJobID": 18681,
+    "backupSetName": "defaultBackupSet",
+    "opType": 4,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 10101,
+    "totalFailedFiles": 0,
+    "workflowInputsXml": "",
+    "jobAttributes": 1441153530026000384,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 4610263,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 91.787,
+    "localizedOperationName": "Backup",
+    "estMediaSize": 6029035,
+    "extRetentionFlags": 0,
+    "backupLevel": 2,
+    "jobElapsedTime": 450,
+    "jobStartTime": 1793451658,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "Virtual Server",
+    "retainUntil": 1796043658,
+    "currentThroughput": 0,
+    "subclientName": "30 Day Local + AWS AGP",
+    "destClientName": "pe-cv-l13__CV_Lab_",
+    "jobEndTime": 1793452108,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "jobAttributesEx": 67108864,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 60,
+    "jobId": 18687,
+    "lastUpdateTime": 1793452108,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "Job started by jobid(18681) ",
+    "jobType": "Backup",
+    "backupLevelName": "Incremental",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0.704883,
+    "localizedBackupLevelName": "Incremental",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyName": "",
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "pe-cv-l13__CV_Lab_",
+     "displayName": "pe-cv-l13 (CV Lab)",
+     "clientId": 32
+    },
+    "clientGroups": [
+     {
+      "_type_": 28,
+      "clientGroupId": 13,
+      "clientGroupName": "vc.lab.local"
+     }
+    ],
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "pe-cv-l13__CV_Lab_",
+     "instanceName": "VMInstance",
+     "backupsetId": 48,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 2,
+     "workloadId": 10101,
+     "subclientId": 59,
+     "clientId": 32,
+     "appName": "Virtual Server",
+     "backupsetName": "defaultBackupSet",
+     "applicationId": 106,
+     "subclientName": "30 Day Local + AWS AGP"
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  },
+  {
+   "jobSummary": {
+    "sizeOfApplication": 9430595988,
+    "vsaParentJobID": 0,
+    "backupSetName": "",
+    "opType": 104,
+    "totalFailedFolders": 0,
+    "distributedAppsClusterType": 0,
+    "totalFailedFiles": 0,
+    "isAged": false,
+    "jobSubmitErrorCode": 0,
+    "sizeOfMediaOnDisk": 0,
+    "currentPhase": 0,
+    "status": "Completed",
+    "percentSavings": 0,
+    "localizedOperationName": "Auxiliary Copy",
+    "estMediaSize": 0,
+    "backupLevel": 0,
+    "jobElapsedTime": 117,
+    "jobStartTime": 1793451925,
+    "currentPhaseName": "",
+    "isPreemptable": 0,
+    "attemptStartTime": 0,
+    "appTypeName": "",
+    "currentThroughput": 0,
+    "subclientName": "",
+    "destClientName": "",
+    "jobEndTime": 1793452042,
+    "commcellId": 2,
+    "alertColorLevel": 0,
+    "isVisible": true,
+    "localizedStatus": "Completed",
+    "totalNumOfFiles": 0,
+    "jobId": 18688,
+    "lastUpdateTime": 1793452042,
+    "statusColor": "black",
+    "pendingReason": "",
+    "errorType": 0,
+    "description": "",
+    "jobType": "Aux Copy",
+    "backupLevelName": "",
+    "pendingReasonErrorCode": "",
+    "percentComplete": 100,
+    "averageThroughput": 0,
+    "localizedBackupLevelName": "",
+    "destinationDisplayClient": {
+     "clientId": 0
+    },
+    "plan": {
+     "planName": "30 Day Local + 30 Day AWS AGP",
+     "planId": 3
+    },
+    "logStoragePolicy": {
+     "storagePolicyId": 0
+    },
+    "destinationClient": {
+     "clientName": "",
+     "displayName": "",
+     "clientId": 0
+    },
+    "dataSource": {
+     "dataSourceId": 0
+    },
+    "subclient": {
+     "clientName": "",
+     "instanceName": "",
+     "backupsetId": 0,
+     "commCellName": "pe-cv-l01.lab.local",
+     "instanceId": 0,
+     "workloadId": 0,
+     "subclientId": 0,
+     "clientId": 0,
+     "appName": "",
+     "backupsetName": "",
+     "applicationId": 0,
+     "subclientName": ""
+    },
+    "company": {
+     "companyId": 0,
+     "companyName": ""
+    },
+    "storagePolicy": {
+     "storagePolicyName": "30 Day Local + 30 Day AWS AGP",
+     "storagePolicyId": 8
+    },
+    "userName": {
+     "userName": "master",
+     "userId": 3
+    }
+   }
+  }
+ ]
+}

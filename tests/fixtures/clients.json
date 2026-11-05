@@ -1,0 +1,310 @@
+{
+ "clientProperties": [
+  {
+   "client": {
+    "evmgrcPort": 8402,
+    "cvdPort": 8400,
+    "clientEntity": {
+     "hostName": "pe-cv-l01.lab.local",
+     "clientName": "pe-cv-l01",
+     "displayName": "pe-cv-l01",
+     "_type_": 3,
+     "clientId": 2,
+     "clientGUID": "E54B5F47-D3DF-4F46-BE72-C3AF643DE0E7"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 8400,
+    "clientEntity": {
+     "hostName": "pe-cv-l07",
+     "clientName": "pe-cv-l07",
+     "displayName": "pe-cv-l07",
+     "_type_": 3,
+     "clientId": 3,
+     "clientGUID": "F24A2185-E2F8-4970-95BA-AE162C50F728"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "Azure Product Experience",
+     "clientName": "Azure_Product_Experience",
+     "displayName": "Azure Product Experience",
+     "_type_": 3,
+     "clientId": 6,
+     "clientGUID": "7374A924-A8C1-4186-9166-5588B08D81AF"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "AWS Product Experience",
+     "clientName": "AWS_Product_Experience",
+     "displayName": "AWS Product Experience",
+     "_type_": 3,
+     "clientId": 7,
+     "clientGUID": "633EFAAC-9C0C-42FE-A125-A86F0D0B629D"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "AWS Cleanroom Target",
+     "clientName": "AWS_Cleanroom_Target",
+     "displayName": "AWS Cleanroom Target",
+     "_type_": 3,
+     "clientId": 14,
+     "clientGUID": "7D18C784-5240-4E50-BDDB-774F8A7D500E"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "clientName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "displayName": "30 Day Local + 30 Day AWS AGP_IndexServer",
+     "_type_": 3,
+     "clientId": 15,
+     "clientGUID": "39711A2E-DE38-477A-8C84-3CE1139BF0BB"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 15
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "30 Day Local - DL1_IndexServer",
+     "clientName": "30 Day Local - DL1_IndexServer",
+     "displayName": "30 Day Local - DL1_IndexServer",
+     "_type_": 3,
+     "clientId": 16,
+     "clientGUID": "FEC62822-A0C1-4868-B662-62C680B7ABD6"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 15
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "clientName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "displayName": "30 Day Local + 30 Day Azure AGP_IndexServer",
+     "_type_": 3,
+     "clientId": 19,
+     "clientGUID": "C6184154-80AF-4791-BB02-84FBA47113E4"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 15
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "pe-cv-l01_AnalyticsServer",
+     "clientName": "pe-cv-l01_AnalyticsServer",
+     "displayName": "pe-cv-l01_AnalyticsServer",
+     "_type_": 3,
+     "clientId": 20,
+     "clientGUID": "15C65532-0EAF-455A-ADF0-1814D76DDC83"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 15
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 8400,
+    "clientEntity": {
+     "hostName": "pe-cv-l24",
+     "clientName": "pe-cv-l24",
+     "displayName": "pe-cv-l24",
+     "_type_": 3,
+     "clientId": 36,
+     "clientGUID": "19403598-8B5E-464F-B57B-E9B69CCF188C"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 8400,
+    "clientEntity": {
+     "hostName": "pe-cv-l26.lab.local",
+     "clientName": "pe-cv-l26",
+     "displayName": "pe-cv-l26",
+     "_type_": 3,
+     "clientId": 37,
+     "clientGUID": "FA6208B0-EC47-4910-AC7C-4251D4595371"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "vc.lab.local",
+     "clientName": "vc.lab.local",
+     "displayName": "vc.lab.local",
+     "_type_": 3,
+     "clientId": 38,
+     "clientGUID": "C708C115-C822-4218-8369-E6F820AD59F4"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 8400,
+    "clientEntity": {
+     "hostName": "pe-cv-l27.lab.local",
+     "clientName": "pe-cv-l27",
+     "displayName": "pe-cv-l27",
+     "_type_": 3,
+     "clientId": 42,
+     "clientGUID": "39464218-A999-450C-BBAE-6798D8C35A7C"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "Rubrik_192.168.1.83",
+     "clientName": "Rubrik_192.168.1.83",
+     "displayName": "Rubrik_192.168.1.83_toDelete",
+     "_type_": 3,
+     "clientId": 49,
+     "clientGUID": "20DA8F81-2E0C-4F0A-AC66-7AE8A8ABD4D5"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "Rbk_192.168.1.83",
+     "clientName": "Rbk_192.168.1.83",
+     "displayName": "Rbk_192.168.1.83",
+     "_type_": 3,
+     "clientId": 50,
+     "clientGUID": "E99AB6F1-5DD3-4A2B-AE65-DDCE2695F019"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "Rbk_la-ru-lin01",
+     "clientName": "Rbk_la-ru-lin01",
+     "displayName": "Rbk_la-ru-lin01",
+     "_type_": 3,
+     "clientId": 51,
+     "clientGUID": "EF6E5EB1-22E9-40C6-AAD6-61BDF75ECF27"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  },
+  {
+   "client": {
+    "evmgrcPort": 0,
+    "cvdPort": 0,
+    "clientEntity": {
+     "hostName": "Rubrik_192.168.1.96",
+     "clientName": "Rubrik_192.168.1.96",
+     "displayName": "Rubrik_192.168.1.96",
+     "_type_": 3,
+     "clientId": 53,
+     "clientGUID": "5529A433-D770-43CC-88E4-15E4F1DE75AE"
+    }
+   },
+   "clientProps": {
+    "iSCSIPort": 3260,
+    "clusterType": 0
+   }
+  }
+ ]
+}

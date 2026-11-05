@@ -1,0 +1,61 @@
+{
+ "plansCount": 4,
+ "plans": [
+  {
+   "planType": "Server",
+   "searchType": "METADATA",
+   "derivable": false,
+   "description": "30 Day Local",
+   "RPO": 0,
+   "associatedEntities": 4,
+   "numberOfCopies": 1,
+   "status": "ENABLED",
+   "plan": {
+    "name": "30 Day Local - DL1",
+    "id": 1
+   }
+  },
+  {
+   "planType": "Server",
+   "searchType": "METADATA",
+   "derivable": false,
+   "description": "30 Day Local + 30 Day Azure AGP",
+   "RPO": 0,
+   "associatedEntities": 1,
+   "numberOfCopies": 3,
+   "status": "ENABLED",
+   "plan": {
+    "name": "30 Day Local + 30 Day Azure AGP",
+    "id": 2
+   }
+  },
+  {
+   "planType": "Server",
+   "searchType": "METADATA",
+   "derivable": false,
+   "description": "30 Day Local + 30 Day AWS AGP",
+   "RPO": 0,
+   "associatedEntities": 2,
+   "numberOfCopies": 2,
+   "status": "ENABLED",
+   "plan": {
+    "name": "30 Day Local + 30 Day AWS AGP",
+    "id": 3
+   }
+  },
+  {
+   "planType": "Server",
+   "searchType": "METADATA",
+   "derivable": false,
+   "description": "30 Day Local",
+   "RPO": 0,
+   "associatedEntities": 0,
+   "numberOfCopies": 1,
+   "status": "ENABLED",
+   "plan": {
+    "name": "30 Day Local",
+    "id": 11
+   }
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "roles": [
+  {
+   "id": 1,
+   "name": "Master",
+   "description": "System Created Role with all permissions",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 3,
+   "name": "View",
+   "description": "System Created Role for View permission",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 4,
+   "name": "End Users",
+   "description": "System created role for end users",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 5,
+   "name": "Compliance",
+   "description": "System created role for compliance",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 6,
+   "name": "Client Admins",
+   "description": "System created role for client admins",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 7,
+   "name": "All Users Laptops",
+   "description": "System created for Laptop owners",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 8,
+   "name": "Plan Subscription Role",
+   "description": "System created for plan add remove role",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 9,
+   "name": "Schedule Policy Creator",
+   "description": "Schedule policy creator role",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 10,
+   "name": "Plan Creator Role",
+   "description": "System created for Plan creators",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 11,
+   "name": "Subclient Policy Owner",
+   "description": "System created role for subclient policy owners",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 12,
+   "name": "Client Group Creator",
+   "description": "Client Group Creator role",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 13,
+   "name": "Tenant Admin",
+   "description": "System created role for tenant admins",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 15,
+   "name": "Derived Plan Creator Role",
+   "description": "System created role for derived plan creators",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 16,
+   "name": "Data Controller",
+   "description": "System created role for GDPR Data Controller",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 18,
+   "name": "Tenant Access",
+   "description": "System created role for tenant to configure cloud accounts",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 19,
+   "name": "Case Manager User",
+   "description": "System created role for case manager user",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 20,
+   "name": "Case Manager Reviewer",
+   "description": "System created role for case manager reviewer",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 21,
+   "name": "Recovery Group Creator",
+   "description": "Recovery Group Creator role",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 22,
+   "name": "MSP Subscription",
+   "description": "Role for company user group client group associations",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 23,
+   "name": "Alert Owner",
+   "description": "System created role for alert owners",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 24,
+   "name": "VM End User",
+   "description": "System created role for VM End Users",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 25,
+   "name": "Browse and Restore",
+   "description": "System created role for Browse and Restore",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 26,
+   "name": "Office 365 Self Service",
+   "description": "System created role for Office 365 Self Service",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 27,
+   "name": "Tenant Operator",
+   "description": "System created role for tenant operators",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 29,
+   "name": "S3 User",
+   "description": "S3 Vault User role",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 30,
+   "name": "SecurityOps Manager",
+   "description": "System created role for Security Operations",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 32,
+   "name": "Plan Edit Copy Role",
+   "description": "System created role for plan edit copy",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 34,
+   "name": "Contract Reader Role",
+   "description": "System created role for contract reader",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 35,
+   "name": "Rate Card Reader Role",
+   "description": "System created role for rate card reader",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 37,
+   "name": "Cleanroom Recovery Group Migration Role",
+   "description": "Created by upgrade script [RecoveryGroupToRunbookConversion]",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 38,
+   "name": "Create Company Role",
+   "description": "System created role for create company",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 39,
+   "name": "Delete Company Role",
+   "description": "System created role for delete company",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  },
+  {
+   "id": 40,
+   "name": "User Management Admin Role",
+   "description": "System created role to manage users",
+   "status": "ENABLED",
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  }
+ ]
+}

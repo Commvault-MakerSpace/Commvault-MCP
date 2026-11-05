@@ -1,0 +1,21 @@
+{
+ "userGroups": [
+  {
+   "id": 1,
+   "name": "master",
+   "GUID": "52F0152D-42C3-4CF1-8397-0B630F0E710E",
+   "serviceType": "UNKNOWN",
+   "description": "Administrative Group",
+   "provider": {
+    "id": 0,
+    "name": ""
+   },
+   "enabled": true,
+   "allowMultipleCompanyMembers": false,
+   "company": {
+    "id": 0,
+    "name": ""
+   }
+  }
+ ]
+}

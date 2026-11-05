@@ -1,0 +1,46 @@
+[project]
+name = "cv-mcp"
+version = "0.1.0"
+description = "MCP server for Commvault Command Center"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=4.1,<5",
+    "httpx>=0.28",
+    "pydantic>=2.9",
+    "python-dotenv>=1.1",
+]
+
+[project.scripts]
+cv-mcp = "cv_mcp.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.25",
+    "respx>=0.22",
+    "ruff>=0.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cv_mcp"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+markers = ["live: tests that call a real CommServe (deselected by default)"]
+addopts = "-m 'not live'"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]

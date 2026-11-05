@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cv-mcp": {
+      "command": "uv",
+      "args": ["run", "--env-file", "/home/zwkru/.config/cv-mcp/lab.env", "cv-mcp", "serve"]
+    }
+  }
+}

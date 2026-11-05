@@ -1,0 +1,7 @@
+cv-mcp
+Copyright 2026 Commvault Systems, Inc. (Product Experience team)
+
+This product includes software developed by Commvault Systems, Inc. in the
+commvault-mcp-server project (https://github.com/Commvault/commvault-mcp-server),
+licensed under the Apache License, Version 2.0. The API client, response shaping
+helpers, endpoint map and path sanitizer in this repository are derived from that work.

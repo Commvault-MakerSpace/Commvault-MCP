@@ -1,6 +1,6 @@
 # cv-mcp: MCP server for Commvault Command Center
 
-Plan written 2026-11-05. Status: proposal, nothing implemented yet.
+Plan written 2026-11-05. Status 2026-11-05 evening: phases 0 and 1 done (scaffold, async client, token store, `cv-mcp check` verified against the lab, 63 unit tests). Phase 2 next.
 
 ## Goal
 
@@ -54,10 +54,18 @@ The value is the endpoint list below (49 functions upstream, 40 after dropping D
 ## Requirements
 
 ### Environment
-- A reachable Command Center. Candidate: M2R lab CommServe `csl01` (see shared memory). Confirm hostname and release.
+- Dev target (confirmed 2026-11-05): `https://commvaultlab.lab.local` = 192.168.1.15, CommServe `pe-cv-l01.lab.local`,
+  commCellId 2, release 11 SP46.40 (Linux CommServe). Access token for user `admin` verified against `v2/whoami`.
   Access tokens need 11.38+; the Renew endpoint and 2 h / 14 d token lifetimes described in current docs; OAuth needs 11.42.27+.
+- Network from this WSL: the lab is behind the Windows VPN adapter `Lab-PE-Zach-K-2` (WSL `eth6`). The lab subnet
+  192.168.1.0/24 overlaps the home LAN on `eth1`, whose route wins, so either `sudo ip route add 192.168.1.15/32 dev eth6`
+  (per boot) or bind the client to the VPN address. Hostname resolves on Windows only; add it to `/etc/hosts` in WSL.
+- Lab cert is self-signed (CN=CS_GXZUPOK, valid to 2027-08-23). Hosted MCP Service at `/commandcenter/mcp` returns 404
+  on this CommServe, so it is not a substitute for this project yet.
+- Lab contents: 17 clients, 4 plans, 6 storage pools, ~100 jobs/week with a handful of failures. Enough for the demo.
 - A Commvault user for the server. Create an access token with scope All (or Custom, read-only role for phase 2)
   under Profile > Access tokens; save the access token and refresh token once, they are not retrievable later.
+  Current tokens live in `~/.config/cv-mcp/lab.env` (mode 600, outside the repo); `.env.example` documents the variable names.
 - Self-signed Command Center certs are common in labs: support `CV_CA_BUNDLE` and `CV_SSL_VERIFY=false` for dev only.
 
 ### Dev machine (this WSL)
@@ -128,12 +136,12 @@ security score) that doubles as material for the SR-5 "introduce MCP for backup 
 
 ## Open questions (answers change the work)
 
-1. Which CommCell is the dev target, and what release is it on?
+1. ~~Which CommCell is the dev target, and what release is it on?~~ Answered 2026-11-05: `pe-cv-l01.lab.local`, 11 SP46.40 (see Environment).
 2. Read-only first, or are write tools needed for the first demo?
 3. Remote hosting target (pe-ai-l01 VM vs Container App) and who the users are beyond this team.
 4. Does "deprecated" mean Commvault is steering everyone to the hosted MCP Service package (11.46.20+,
-   `https://<CC>/commandcenter/mcp`)? If the lab gets 11.46.20+, that hosted endpoint is a useful comparison point and
-   may cover some use cases without this server.
+   `https://<CC>/commandcenter/mcp`)? The lab is on 11.46.40 but the endpoint returns 404, so the package is not installed
+   there. Worth enabling later as a comparison point.
 
 ## Sources
 

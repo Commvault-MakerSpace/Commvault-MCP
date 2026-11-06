@@ -4,6 +4,14 @@ MCP server for Commvault Command Center. It lets Claude Code, Claude Desktop and
 CommCell (jobs, clients, storage, plans, schedules, users, security posture) through the Command Center REST
 API, and operate it only when writes are explicitly enabled.
 
+## Origin
+
+This repository is a clone of the open-source
+[Commvault/commvault-mcp-server](https://github.com/Commvault/commvault-mcp-server) project on GitHub, which is
+published under the Apache 2.0 license and is open to community development. Issues, feature requests and pull
+requests for the upstream project go through its GitHub repository. This copy is maintained by the Product
+Experience team for lab work and demos; see [Credits](#credits) for what was ported and `NOTICE` for attribution.
+
 ## Status
 
 Working against the lab today: project scaffold, async API client with token renewal, token store, the `cv-mcp check`
@@ -20,6 +28,24 @@ CLI, and the first three tool areas (jobs, CommCell, clients) with 17 read tools
 
 Times are epoch seconds and sizes are bytes unless a tool says otherwise. Responses are slimmed for the model;
 `*_properties` tools return the raw CommServe payload.
+
+## Feature areas
+
+The upstream project organizes its tools into the categories below. Job, Commcell and Client Management are
+implemented in this repository today (see [Tools](#tools)); the remaining areas are on the roadmap in `PLAN.md`
+or are upstream-only integrations.
+
+| Category | Features |
+|----------|----------|
+| **Job Management** | • View job details and history<br>• Control jobs (suspend, resume, resubmit, kill)<br>• Monitor job status and performance |
+| **Commcell Management** | • Retrieve SLA status and compliance<br>• View security posture and scores<br>• Access storage space utilization metrics<br>• Get commcell details and entity counts |
+| **Client Management** | • Access client groups and client information<br>• Manage subclients and client properties<br>• View client associations |
+| **Storage Management** | • View storage policies and configurations<br>• Access storage pool information<br>• Monitor storage resources |
+| **User Management** | • List users and user groups<br>• Access security associations |
+| **Plan Management** | • View plan configurations and details<br>• Access plan components and settings |
+| **Schedule Management** | • Access backup schedules<br>• View schedule configurations<br>• Monitor schedule performance |
+| **DocuSign Integration** | • Setup Docusign Vault & Workflow<br>• Backup envelopes to Commvault S3 vault<br>• List & restore DocuSign envelope backups |
+| **Salesforce Integration** | • Resolve Salesforce org ID to Commvault client<br>• Browse backed-up Salesforce object records from latest snapshot<br>• Filter records with optional WHERE-clause queries<br>• Paginated access to large record sets |
 
 ## Requirements
 

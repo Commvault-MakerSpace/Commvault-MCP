@@ -1,6 +1,7 @@
 import json
 import logging
 import stat
+import sys
 
 import pytest
 from src.cv_mcp.api.tokens import (
@@ -45,8 +46,10 @@ class TestFileTokenStore:
         FileTokenStore(token_file, seed=("acc", "ref"))
 
         assert token_file.exists()
-        mode = stat.S_IMODE(token_file.stat().st_mode)
-        assert mode == 0o600
+        if sys.platform != "win32":
+            # chmod only toggles the read-only bit on Windows; ACLs guard the file there.
+            mode = stat.S_IMODE(token_file.stat().st_mode)
+            assert mode == 0o600
 
         data = json.loads(token_file.read_text())
         assert "access_token" in data
